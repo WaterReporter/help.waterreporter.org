@@ -2,7 +2,10 @@
 layout: default
 ---
 <main class="site--content site--content--submit">
-  <div class="page--content page--content--generic">
+
+  {% include sidebar.html %}
+
+  <div class="page--content page--content--withSidebar page--content--generic">
 
     <h1>
       {{ page.title }}

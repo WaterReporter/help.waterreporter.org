@@ -8,19 +8,24 @@ layout: default
       Pages
     </h1>
 
-    <ul class="post-list">
-      {% for page_ in site.pages %}
-        {% if page_.title %}
-        <li>
-          <span class="post-meta">{{ page_.date | date: "%b %-d, %Y" }}</span>
+    <nav>
 
-          <h2>
-            <a class="post-link" href="{{ page_.url | prepend: site.baseurl }}">{{ page_.title }}</a>
-          </h2>
-        </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
+      <ul>
+        {% for page_ in site.pages %}
+          {% if page_.title %}
+          <li>
+            <span class="post-meta">{{ page_.date | date: "%b %-d, %Y" }}</span>
+
+            <h2>
+              <a class="post-link" href="{{ page_.url | prepend: site.baseurl }}">{{ page_.title }}</a>
+            </h2>
+          </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+
+    </nav>
+
 
     <p class="rss-subscribe text-center">
       <small><small>

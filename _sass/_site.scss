@@ -43,12 +43,24 @@ body {
     background-color: $color-white-base;
   }
 
+  .page--sidebar {
+    float: left;
+    margin: 2em auto 1em;
+    padding: 3em 3em 6em;
+    width: 24%;
+  }
+
   .page--content {
     background-color: $color-white-base;
     margin: 2em auto 1em;
     padding: 3em 3em 6em;
     max-width: 73.125em;
   }
+    .page--content.page--content--withSidebar {
+      float: left;
+      width: 72%
+    }
+
     .page--content.page--content--transparent {
       background-color: transparent;
       padding: 0;
