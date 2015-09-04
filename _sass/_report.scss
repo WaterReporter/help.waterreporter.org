@@ -1,0 +1,266 @@
+//
+// _report.scss
+//
+// This stylesheet is written in SASS(1) and contains site wide form
+// specifications.
+//
+// @see (1) http://sass-lang.com/documentation/file.SASS_REFERENCE.html
+//
+
+.report--single--wrapper {
+  display: block;
+  margin: 0 auto;
+  margin-top: -72px;
+}
+
+.report {
+  background-color: transparent;
+  float: left;
+  margin: 0 auto 64px;
+  width: 100%;
+}
+
+.features--container .report {
+  float: none;
+}
+
+  .report.report--featured {
+    max-width: 1170px;
+    width: 100%;
+  }
+
+  .report.report--single {
+    background-color: $color-white-base;
+    float: left;
+    min-height: 1;
+    position: relative;
+    margin-left: 22.306035%;
+    max-width: 640px;
+    width: 55.38793%;
+  }
+    .report--single--wrapper .report.report--single {
+      margin-left: 0;
+      max-width: 100%;
+      width: 68%;
+    }
+
+  .report--author {
+    border-left: 1px solid rgb(232,232,232);
+    border-right: 1px solid rgb(232,232,232);
+    border-top: 1px solid rgb(232,232,232);
+    float: left;
+    padding: 1em;
+    width: 100%;
+  }
+
+    .report--author p {
+      margin-bottom: 0;
+    }
+
+    .report--date {
+      color: $color-black-lightest;
+      float: right;
+      font-size: 0.875em;
+      margin: 4px 0 0;
+    }
+      .report--date span:active,
+      .report--date span:focus {
+        outline: 0;
+      }
+
+    .report--author--avatar {
+      border-radiu: 50%;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      float: left;
+      height: 32px;
+      width: 32px;
+    }
+      .report--author--avatarMissing {
+        margin-top: -3px;
+      }
+
+    .report--author--name {
+      color: $color-blue-dark;
+      float: left;
+      font-weight: bold;
+      letter-spacing: 0;
+      margin: 4px 0 0 8px;
+    }
+      .report--author--name:hover {
+        color: $color-blue-darker;
+        text-decoration: none;
+      }
+
+    .report--author--position {}
+
+    .report--author--organization {}
+
+  a.report--comment--link,
+  a.report--comment--link:active,
+  a.report--comment--link:link,
+  a.report--comment--link:visited {
+    color: $color-gray-base;
+  }
+    a.report--comment--link:hover {
+      color: darken($color-gray-base, 5%);
+    }
+
+  .report--media {
+    border-left: 1px solid rgb(232,232,232);
+    border-right: 1px solid rgb(232,232,232);
+    max-height: 640px;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .report--content {
+    border-left: 1px solid rgb(232,232,232);
+    border-right: 1px solid rgb(232,232,232);
+    border-bottom: 1px solid rgb(232,232,232);
+    padding: 1em;
+    width: 100%;
+  }
+
+
+//
+//
+//
+.report--location {
+  background-color: $color-white-dark;
+  text-align: right;
+}
+
+.report--location p {
+  color: $color-gray-light;
+  font-size: 0.75em;
+  margin: 0;
+  padding: 1em;
+  max-width: 100%;
+}
+
+
+//
+//
+//
+.report--action {
+  background-color: rgb(242,242,242);
+  float: left;
+  margin: 64px 0 0 0.625%;
+  text-align: center;
+  width: 21.681035%;
+}
+
+a.report--action--owner,
+a.report--action--owner:active,
+a.report--action--owner:hover,
+a.report--action--owner:link,
+a.report--action--owner:visited {
+  color: $color-gray-light;
+  display: block;
+  font-size: 0.8125em;
+  font-weight: 500;
+  letter-spacing: 0.125em;
+  text-align: center;
+  text-transform: uppercase;
+
+  span {
+    font-size: 0.75em;
+    font-weight: 300;
+  }
+}
+
+
+//
+// Single Report Metadata
+//
+.report--metadata {
+  float: left;
+  margin-top: 96px; // This is to compensate for the negative -64px margin on
+                    // the .features div
+  min-height: 1px;
+  position: relative;
+  width: 32%;
+}
+
+  .report--metadata .report--author {
+    border: none;
+  }
+
+  .report--metadata .report--author--avatar {
+    margin-right: 8px;
+  }
+
+  .report--metadata .report--date,
+  .report--metadata .report--author--name {
+    float: none;
+    margin: 0;
+  }
+
+.report--metadata--section {
+  border-bottom: 1px solid $color-white-darkest;
+  margin-bottom: 32px;
+  padding-bottom: 32px;
+}
+  .report--metadata--section p {
+    color: $color-black-lightest;
+  }
+
+.report--metadata--section:last-child {
+  border-bottom: 0;
+}
+
+.icon--directions {
+  color: $color-gray-base;
+  font-size: 16px;
+}
+
+
+.report--metadata .report--media {
+  border: none;
+  float: left;
+  height: 108px;
+  margin: 0 16px 16px 0;
+  padding: 0;
+  width: 108px;
+}
+  .report--metadata .report--media:last-child {
+    margin-right: 0;
+  }
+
+.report--metadata .report--media a {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 100% !important;
+}
+
+.report--metadata .report--media img {
+  height: 100%;
+  width: 100%;
+}
+
+.report--metadata--sectionTitle {
+  color: $color-black-lightest;
+  padding-bottom: 16px;
+}
+
+
+.report--metadata .report--action {
+  background-color: transparent;
+  border-bottom: 1px solid $color-white-darkest;
+  margin: -96px 1em 32px;
+  padding: 0 0 32px;
+  position: static;
+  text-align: center;
+  width: 100%;
+}
+
+.report--metadata a.report--action--owner,
+.report--metadata a.report--action--owner:active,
+.report--metadata a.report--action--owner:hover,
+.report--metadata a.report--action--owner:link,
+.report--metadata a.report--action--owner:visited {
+  color: $color-blue-darkest;
+  padding: 1em 0 0;
+}

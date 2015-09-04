@@ -1,0 +1,194 @@
+//
+// _slider.scss
+//
+// This stylesheet is written in SASS(1) and contains site wide typographic
+// specifications.
+//
+
+.map--featured {
+  margin-top: 2.625em;
+  position: relative;
+  z-index: 1;
+}
+
+.features--container {
+  width: 100%;
+}
+
+.features--slider--previous,
+a.features--slider--previous:active,
+a.features--slider--previous:link,
+a.features--slider--previous:focus,
+a.features--slider--previous:visited,
+.features--slider--next,
+a.features--slider--next:active,
+a.features--slider--next:link,
+a.features--slider--next:focus,
+a.features--slider--next:visited {
+  color: $color-gray-base;
+  display: inline-block;
+  font-size: 64px;
+  height: 64px;
+  outline: 0;
+  margin-top: 96px;
+  text-align: center;
+  text-decoration: none;
+  width: 64px;
+}
+
+a.features--slider--previous:active,
+a.features--slider--next:active {
+  background-color: $color-white-dark;
+}
+
+a.features--slider--previous:hover,
+a.features--slider--next:hover {
+  text-decoration: none;
+}
+
+a.features--slider--previous .icon {
+  top: 6px;
+  left: -1px;
+}
+
+a.features--slider--next .icon {
+  top: 6px;
+  right: -1px;
+}
+
+
+//
+//
+//
+.report.report--featured {
+  background-color: transparent;
+  max-width: 1170px;
+  width: 1170px;
+}
+
+  .report.report--featured .feature--marker--icon {
+    float: left;
+    margin-left: 8.3333333333%;
+    text-align: center;
+    width: 33.33333333%;
+  }
+
+    .feature--marker--icon.marker--icon .marker--icon--image.marker--icon--large + .marker--icon--point {
+      background-color: $color-blue-bright;
+      display: inline-block;
+      margin-left: 0;
+    }
+
+    .feature--marker--icon.marker--icon .marker--icon--image.marker--icon--large {
+      border-radius: 128px;
+      -moz-border-radius: 128px;
+      -webkit-border-radius: 128px;
+      border-width: 10px;
+      display: inline-block;
+      height: 216px;
+      width: 216px;
+    }
+
+  .report.report--featured .report--content {
+    border: none;
+    display: inline-block;
+    margin-right: 8.3333333333%;
+    padding: 2em 0 0;
+    width: 50%;
+  }
+
+    .report.report--featured p.feature--author {
+      border-bottom: 1px solid rgba($color-white-base, 0.2);
+      color: $color-white-base;
+      display: inline-block;
+      font-family: $font-sans;
+      font-size: 0.875em;
+      margin: 0 0 0.5em;
+      padding: 0 0 0.25em;
+    }
+
+    .report.report--featured h1.feature--title {
+      color: $color-white-base;
+      font-family: $font-sans;
+      font-size: 2em;
+      font-weight: 600;
+      letter-spacing: 0.025em;
+      margin: 0 0 0.125em;
+      padding: 0;
+      text-transform: uppercase;
+    }
+
+    .report.report--featured p.feature--description {
+      color: $color-white-base;
+      font-family: $font-sans;
+      font-size: 0.9375em;
+      margin: 0 0 0.75em;
+      padding: 0;
+    }
+
+    .report.report--featured p.feature--description:first-letter{
+      text-transform: capitalize
+    }
+
+    .report.report--featured .feature--button {
+      background-color: $color-blue-bright;
+      font-size: 0.625em;
+      padding: 0.75em 2.2em;
+      text-shadow: none;
+
+      &:active {
+        top: 2px;
+      }
+    }
+
+    .feature--marker--icon.marker--icon .marker--icon--point {
+      border-top: 34px solid rgb(255,255,255);
+      border-right: 24px solid rgba(0, 0, 0, 0);
+      border-left: 24px solid rgba(0, 0, 0, 0);
+      margin-left: 4px;
+    }
+
+
+//
+// Slider Navigation
+//
+.features--navigation {
+  margin: 1em 0 3em;
+  padding: 0;
+  width: 100%;
+}
+
+.features--navigation ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0 8em;
+  max-width: 1170px;
+  width: 100%;
+}
+
+.features--navigation li {
+  box-sizing: border-box;
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0 1em 0 0;
+  width: 16.66666666%;
+}
+
+.features--navigation li a {
+  background-color: $color-gray-base;
+  display: inline-block;
+  height: 0.5em;
+  overflow: hidden;
+  text-indent: -999999px;
+  width: 100%;
+
+  &:focus,
+  &:active {
+    outline: none;
+  }
+}
+
+.features--navigation li a.active {
+  background-color: $color-blue-bright;
+}

@@ -1,23 +1,32 @@
 ---
 layout: default
 ---
+<main class="site--content site--content--submit">
+  <div class="page--content page--content--generic">
 
-<div class="home">
+    <h1>
+      Pages
+    </h1>
 
-  <h1 class="page-heading">Posts</h1>
+    <ul class="post-list">
+      {% for page_ in site.pages %}
+        {% if page_.title %}
+        <li>
+          <span class="post-meta">{{ page_.date | date: "%b %-d, %Y" }}</span>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <h2>
+            <a class="post-link" href="{{ page_.url | prepend: site.baseurl }}">{{ page_.title }}</a>
+          </h2>
+        </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+    <p class="rss-subscribe text-center">
+      <small><small>
+        Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
+      </small></small>
+    </p>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+  </div>
+</main>

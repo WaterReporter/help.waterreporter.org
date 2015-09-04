@@ -1,0 +1,99 @@
+//
+// _site.scss
+//
+// This stylesheet is written in SASS(1) and contains site wide typographic
+// specifications.
+//
+
+body {
+  background-color: $color-white-dark;
+  margin: 0;
+  padding: 0;
+}
+
+.element-hidden {
+  display: none;
+}
+
+.site--header {
+  background-color: $color-white-base;
+  float: left;
+  width: 100%;
+
+  .container {
+    padding: 1.5em 0;
+    margin: 0 auto;
+  }
+}
+
+.site--header--brand {
+  display: inline-block;
+  max-width: 25%;
+}
+
+.site--content {
+  background-color: transparent;
+  box-sizing: border-box;
+  float: left;
+  padding: 2em;
+  width: 100%;
+}
+
+  .site--content--front {
+    background-color: $color-white-base;
+  }
+
+  .page--content {
+    background-color: $color-white-base;
+    margin: 2em auto 1em;
+    padding: 3em 3em 6em;
+    max-width: 73.125em;
+  }
+    .page--content.page--content--transparent {
+      background-color: transparent;
+      padding: 0;
+    }
+
+    .page--content.page--content--overlay {
+      margin-top: 0;
+      padding-top: 0;
+    }
+
+    .page--content--row {
+      display: inline-block;
+      width: 100%;
+    }
+
+    .page--content--column {
+      box-sizing: border-box;
+      float: left;
+      min-height: 1px;
+      margin-left: 0.625%;
+      margin-right: 0.625%;
+    }
+
+.site--footer {
+  clear: both;
+}
+
+  .site--footer--copyright {
+    background-color: darken($color-blue-darker, 10%);
+  }
+
+
+  .container {
+    display: block;
+    padding-right: 1em;
+    padding-left: 1em;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1170px;
+  }
+
+
+@media (max-width: 767px) {
+  .site--header--brand {
+    margin-left: 1em;
+    max-width: 100%;
+  }
+}

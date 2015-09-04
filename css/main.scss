@@ -4,49 +4,78 @@
 @charset "utf-8";
 
 
+//
+// Color Variables
+//
+$color-black-base: rgb(36,32,28);
+$color-black-light: rgb(56,52,48);
+$color-black-lighter: rgb(96,92,88);
+$color-black-lightest: rgb(126,122,118);
+$color-black-bright: rgb(146,142,138);
 
-// Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+$color-gray-dark: rgb(71,72,74);
+$color-gray-base: rgb(186, 182, 178);
+$color-gray-light: rgb(202, 202, 202);
 
-$spacing-unit:     30px;
+$color-white-bright: rgb(255,255,255);
+$color-white-base: rgb(252,252,252);
+$color-white-dark: rgb(242,242,242);
+$color-white-darker: rgb(232,232,232);
+$color-white-darkest: rgb(225,225,225);
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$color-blue-darkest: rgb(0,123,154);
+$color-blue-darker: rgb(0, 145,179);
+$color-blue-dark: rgb(6,170,222);
+$color-blue-base: rgb(11,159,196);
+$color-blue-bright: rgb(0,179,220);
+$color-blue-brighter: rgb(20,171,224);
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$color-green-base: rgb(46,114,42);
 
-// Width of the content area
-$content-width:    800px;
+// $color-green-base: rgb(56,184,124);
 
-$on-palm:          600px;
-$on-laptop:        800px;
-
-
-
-// Using media queries with like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
-}
+$color-red-base: rgb(240,71,71);
 
 
+//
+// Typography Variables
+//
+$font-serif: "calluna", "Times New Roman", "Times", serif;;
+$font-sans: "proxima-nova", "helvetica neue", "helvetica", arial, sans-serif;
+$font-sans-plain: "helvetica neue", "helvetica", arial, sans-serif;
 
-// Import partials from `sass_dir` (defaults to `_sass`)
+
+//
+// main.scss
+//
+// This stylesheet is written in SASS(1) and compiles all of the styles
+// we use throughout the site.
+//
+// @see (1) http://sass-lang.com/documentation/file.SASS_REFERENCE.html
+//
+
 @import
-        "base",
-        "layout",
-        "syntax-highlighting"
+    "_normalize",
+
+    "_typography",
+    "_navigation",
+    "_site",
+
+    "_image",
+    "_form",
+    "_button",
+    "_table",
+
+    "_search",
+    "_icons",
+    "_map",
+    "_notifications",
+    "_indicator",
+    "_mapboxGeocoder",
+    "_slider",
+    "_profile",
+    "_front",
+
+    "_report",
+    "_comment"
 ;

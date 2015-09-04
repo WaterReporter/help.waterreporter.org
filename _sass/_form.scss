@@ -1,0 +1,485 @@
+//
+// _form.scss
+//
+// This stylesheet is written in SASS(1) and contains site wide form
+// specifications.
+//
+// @see (1) http://sass-lang.com/documentation/file.SASS_REFERENCE.html
+//
+
+
+
+
+.form {
+  display: table;
+  margin: 4em auto;
+  width: 100%;
+}
+
+.form--centered {
+  text-align: center;
+  width: 50%;
+}
+
+.form--centered.form--narrow {
+  margin: 0 auto;
+  width: 36.3333333%;
+}
+
+.form--xlarge {
+  max-width: 52.2em;
+}
+
+.form--large {
+  max-width: 48em;
+}
+
+.form--medium {
+  max-width: 40em;
+}
+
+.form--small {
+  max-width: 32em;
+}
+
+
+//
+// Form Element Groups
+//
+.form--row {
+  display: table-row;
+  margin: 0;
+  width: 100%;
+}
+
+.form--row:first-child .form--label,
+.form--row:first-child .form--field {
+  border-top: 1px solid rgb(232,232,232);
+}
+
+.form--row .form--label {
+  border-bottom: 1px solid rgb(232,232,232);
+  display: table-cell;
+  margin: 0;
+  padding: 2em 0;
+  vertical-align: middle;
+  width: 20%;
+}
+
+.form--row .form--field {
+  border-bottom: 1px solid rgb(232,232,232);
+  display: table-cell;
+  margin: 0;
+  padding: 2em 0;
+  vertical-align: middle;
+  width: 70%;
+}
+
+.form--field .control--label ul {
+  margin-top: 0;
+}
+
+.form--field li {
+  font-family: $font-sans;
+  margin-bottom: 0;
+}
+
+//
+//
+//
+.help--text {
+  color: rgb(121,122,124);
+  font-family: $font-sans;
+  font-size: 0.75em;
+  font-weight: 500;
+  font-style: italic;
+  padding-top: 2px;
+  max-width: 100%;
+}
+
+
+//
+// Form Actions
+//
+.form--actions {
+  display: table-row;
+  width: 100%;
+}
+
+.form--actions--buttons {
+  display: table-cell;
+  padding: 2em 0;
+}
+
+.form--actions--center {
+  text-align: center;
+}
+
+
+//
+// Labels
+//
+.control--label,
+label.control--label {
+  color: rgb(121,122,124);
+  display: block;
+  font-family: $font-sans;
+  font-size: 0.875em;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 0.15em;
+  text-align: left;
+}
+
+.form--label p {
+  color: rgb(121,122,124);
+  font-family: $font-sans;
+  font-size: 0.75em;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.form p {
+  margin: 0;
+}
+
+.form--element {
+  margin-bottom: 1.25em;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+//
+// Input fields
+//
+.form--control,
+select.form--control,
+input.form--control {
+  background-color: rgb(255,255,255);
+
+  -webkit-box-shadow: inset 0 0 6px rgba(196,196,196, 0.5);
+  -moz-box-shadow: inset 0 0 6px rgba(196,196,196, 0.5);
+  box-shadow: inset 0 0 6px rgba(196,196,196, 0.5);
+
+  border: 1px solid rgb(196,196,196);
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+
+  box-sizing: border-box;
+  color: rgb(71,72,74);
+  display: inline-block;
+  font-family: $font-sans;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 0;
+  padding: 0.5em 0.75em;
+
+  width: 100%;
+
+  &:focus {
+    border: 1px solid rgba(20,171,224,1);
+    outline: 0;
+  }
+
+  &.input-lg {
+    font-size: 1.25em;
+    height: 34px;
+  }
+
+  &.input-xl {
+    font-size: 1.5em;
+    height: 36px;
+  }
+
+  &.readonly,
+  &.readonly:active,
+  &.readonly:focus {
+    border-bottom: none;
+    cursor: default;
+  }
+
+  &.highlight {
+    color: rgba(20,171,224,1);
+    font-weight: 600;
+  }
+
+  //
+  // Form Field Errors
+  //
+  &.ng-invalid.ng-touched {
+    border-color: $color-red-base;
+  }
+
+}
+
+select.form--control {
+  -webkit-appearance: none;
+  background-image: url(../images/select--arrows.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.form--control.form--control--disabled {
+  background-color: $color-white-darker;
+}
+
+//
+// Multiple columns
+//
+.form--control.form--control--half,
+.form--element.form--element--half {
+  display: inline-block;
+  width: 49.375%;
+}
+  .form--control--half:first-child,
+  .form--element--half:first-child {
+    margin-right: 0.625%
+  }
+
+.form--control.form--control--thirds,
+.form--element.form--element--thirds {
+  display: inline-block;
+  margin-right: 0.625%;
+  width: 32.3333333%;
+}
+  .form--control--thirds:first-child,
+  .form--element--thirds:first-child {
+    margin-right: 0;
+  }
+
+.form--control.form--control--quarters,
+.form--element.form--element--quarters {
+  display: inline-block;
+  margin-right: 0.625%;
+  width: 23.3333333%;
+}
+  .form--control--quarters:last-child,
+  .form--element--quarters:last-child {
+    margin-right: 0;
+  }
+
+  //
+  // Input Placeholder Text
+  //
+  ::-webkit-input-placeholder {
+    color: rgb(196,196,196);
+    font-family: $font-sans;
+    font-size: 1em;
+    font-weight: 300;
+  }
+
+  :-moz-placeholder { /* Firefox 18- */
+    color: rgb(196,196,196);
+    font-family: $font-sans;
+    font-size: 1em;
+    font-weight: 300;
+  }
+
+  ::-moz-placeholder {  /* Firefox 19+ */
+    color: rgb(196,196,196);
+    font-family: $font-sans;
+    font-size: 1em;
+    font-weight: 300;
+  }
+
+  :-ms-input-placeholder {
+    color: rgb(196,196,196);
+    font-family: $font-sans;
+    font-size: 1em;
+    font-weight: 300;
+  }
+
+
+  //
+  // Input fields
+  //
+  textarea.form--control {
+    background-color: rgb(255,255,255);
+
+    -webkit-box-shadow: inset 0 0 6px rgba(196,196,196, 0.5);
+    -moz-box-shadow: inset 0 0 6px rgba(196,196,196, 0.5);
+    box-shadow: inset 0 0 6px rgba(196,196,196, 0.5);
+
+    border: 1px solid rgb(196,196,196);
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+
+    box-sizing: border-box;
+    color: rgb(71,72,74);
+    font-family: $font-sans;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em 0.75em;
+
+    width: 100%;
+
+    &:focus {
+      border: 1px solid rgba(20,171,224,1);
+      outline: 0;
+    }
+
+    &.readonly,
+    &.readonly:active,
+    &.readonly:focus {
+      border-bottom: none;
+      cursor: default;
+    }
+
+    &.highlight {
+      color: rgba(20,171,224,1);
+      font-weight: 600;
+    }
+
+  }
+
+//
+// File Field
+//
+input.form--control--file,
+input.form--control.form--control--file {
+  margin-bottom: 16px;
+}
+
+
+//
+//
+//
+.form--control--toggle {
+  color: rgb(196, 196, 196);
+  display: inline-block;
+  font-size: 12px;
+  padding: 0 8px 16px;
+  text-align: right;
+  width: 100%;
+
+  &:focus,
+  &:active {
+    outline: none;
+  }
+}
+
+
+//
+// Quesitons & Labels
+//
+.form .form--question,
+.form .form--question p {
+  font-family: $font-sans;
+  font-size: 1em;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 0.5em;
+}
+
+
+//
+// Form Columns
+//
+.form--group--labelWrapper {
+  float: left;
+  width: 100%;
+}
+  .form--group--labelWrapper.form--group--checkboxQuestion,
+  .form--group--indent {
+    margin-left: 10%;
+    width: 90%;
+  }
+
+.form--group--checkboxWrapper {
+  float: left;
+  width: 10%;
+}
+
+.form--group--checkboxWrapper + .form--group--labelWrapper {
+  float: left;
+  width: 90%;
+}
+
+
+//
+//
+//
+.form--imaginaryCheckbox {
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 0.5em;
+    width: 100%;
+}
+  .form--imaginaryCheckbox:last-child {
+    margin-bottom: 0;
+  }
+
+  .form--imaginaryCheckbox--checkbox {
+    background-color: rgb(252,252,252);
+    border: 2px solid rgba(20,171,224,1);
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    content: "";
+    display: block;
+    height: 2em;
+    margin: 0 auto;
+    text-align: center;
+    width: 2em;
+  }
+
+    .form--imaginaryCheckbox--checkbox:active {
+      background-color: rgba(20,171,224, 0.25);
+      position: relative;
+      top: 1px;
+    }
+
+    .form--imaginaryCheckbox--checkbox .icon-checkmark {
+      color: rgb(252,252,252);
+      font-size: 1.25em;
+      left: -1px;
+      position: relative;
+      top: 5px;
+    }
+
+    .form--imaginaryCheckbox--checkbox:focus,
+    .form--imaginaryCheckbox--label:focus {
+      outline: 0;
+    }
+
+  .form--imaginaryCheckbox--selected {
+    background-color: rgba(20,171,224,1);
+  }
+
+    .form--imaginaryCheckbox--selected:active {
+      background-color: rgba(20,171,224,1);
+      top: 0;
+    }
+
+  .form--imaginaryCheckbox--label {
+    font-family: $font-sans;
+    font-size: 0.8125em;
+    line-height: 1.25;
+  }
+
+
+//
+// Search fields
+//
+input.form--control.search--control {
+  border-radius: 16px;
+  -moz-border-radius: 16px;
+  -webkit-border-radius: 16px;
+  font-size: 0.75em;
+}
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
