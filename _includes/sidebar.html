@@ -6,13 +6,49 @@
           Overview
         </a>
       </li>
-      {% for page_ in site.pages %}
-        {% if page_.title %}
-        <li>
-          <a href="{{ page_.url | prepend: site.baseurl }}">
-            {{ page_.title }}
-          </a>
-        </li>
+      {% assign pages = (site.pages | sort: 'order', 'last') %}
+      {% for page_ in pages %}
+        {% if page_.title and page_.navigation.level == 1 %}
+          {% if page_.url == page.url %}
+            <li>
+              <a class="page-link active" href="{{ page_.url | prepend: site.baseurl }}">{{ page_.navigation.title }}</a>
+
+              <ul>
+              {% for subpage_ in pages %}
+                {% if subpage_.title and subpage_.navigation.level == 2 and subpage_.navigation.parent == page_.url %}
+                  {% if subpage_.url == page.url %}
+                    <li>
+                      <a class="page-link active" href="{{ subpage_.url | prepend: site.baseurl }}">{{ subpage_.navigation.title }}</a>
+                    </li>
+                  {% else %}
+                    <li>
+                      <a class="page-link inactive" href="{{ subpage_.url | prepend: site.baseurl }}">{{ subpage_.navigation.title }}</a>
+                    </li>
+                  {% endif %}
+                {% endif %}
+              {% endfor %}
+              </ul>
+            </li>
+          {% else %}
+            <li>
+              <a class="page-link inactive" href="{{ page_.url | prepend: site.baseurl }}">{{ page_.navigation.title }}</a>
+              <ul>
+              {% for subpage_ in pages %}
+                {% if subpage_.title and subpage_.navigation.level == 2 and subpage_.navigation.parent == page_.url %}
+                  {% if subpage_.url == page.url %}
+                    <li>
+                      <a class="page-link active" href="{{ subpage_.url | prepend: site.baseurl }}">{{ subpage_.navigation.title }}</a>
+                    </li>
+                  {% else %}
+                    <li>
+                      <a class="page-link inactive" href="{{ subpage_.url | prepend: site.baseurl }}">{{ subpage_.navigation.title }}</a>
+                    </li>
+                  {% endif %}
+                {% endif %}
+              {% endfor %}
+              </ul>
+            </li>
+          {% endif %}
         {% endif %}
       {% endfor %}
     </ul>

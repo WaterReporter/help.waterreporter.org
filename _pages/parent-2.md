@@ -1,7 +1,11 @@
 ---
-permalink: "/example/"
+permalink: "/parent-2/"
 layout: page
-title:  "Example Article"
+title:  "Parent Article 2"
+navigation:
+  title: "Parent Article 2"
+  level: 1
+  parent: null
 ---
 
 <p class="text-center">
