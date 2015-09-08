@@ -1,45 +1,34 @@
 ---
 permalink: "/parent-2/"
 layout: page
-title:  "Parent Article 2"
+title:  "Welcome to Water Reporter"
 navigation:
-  title: "Parent Article 2"
+  title: "Welcome to Water Reporter"
   level: 1
   parent: null
 ---
 
-<p class="text-center">
-  Water Reporter is the fastest growing community dedicated to documenting
-  human interaction with our world’s rivers lakes and streams. Our platform
-  compiles your snapshots with those of other like-minded outdoor river and
-  environmental enthusiasts plus, you can report pollution issues to an
-  on-demand network of stewards dedicated to protecting and solving local
-  water quality issues.
+<p>
+  Water Reporter is the easiest way to document and map your experiences on the world's waterways. Use our app to snap a picture while on the river, describe your experience with a few words or hashtags, and share. We’ll keep track of your adventures, add them to the community map, and allow others to explore the world’s lakes, rivers, and oceans as they happen. We built Water Reporter to help tease out local knowledge on how humans interact with the the many watersheds around the globe.
 </p>
 
-<figure class="media--image">
-  <a href="/reports/1743">
-    <img src="/images/content--about--cape.jpg" alt="" title="" width="100%">
+<!-- <figure class="media--image">
+  <a href="/reports/1155">
+    <img src="/images/content--help--grace.jpg" alt="" title="" width="50%">
   </a>
   <figcaption>
-    <a href="/reports/1743">
-      Photograph taken by Brendan McIntyre for Report #1743
+    <a href="/reports/1670">
+      Photograph taken by John Dawes for Report #1670
     </a>
   </figcaption>
-</figure>
-
-<h2 class="text-center">
-  Getting started is easy
-</h2>
+</figure> -->
 
 <p>
-  Signup for an account through the mobile app or website. Use our app for
-  Android or iOS to take a picture, add comments, and share. We’ll keep
-  track of your adventures, add them to the community map, and allow others
-  to explore the world’s lakes, rivers, and oceans as they happen.
+  With Water Reporter, organizations and citizens have faster, more complete access to capture and share the real time needs of a river.  Noticed something that just doesn’t look right in your waterway? Report it and we’ll connect your issue to our network of watershed professionals to help resolve the problem. With a free account, you can track the actions taken by others to address a water quality threat. Our community allows anyone to be the catalyst that improves the health of a local waterway.
 </p>
 
-<figure class="media--image">
+
+<!-- <figure class="media--image">
   <a href="/reports/1155">
     <img src="/images/content--about--boat.jpg" alt="" title="" width="100%">
   </a>
@@ -189,4 +178,4 @@ navigation:
   that actively field and respond to community pollution reports with the
   goal to enhance local water quality. If you’d like to join our network and
   help to address the many threats facing water quality, please get in touch.
-</p>
+</p> -->
