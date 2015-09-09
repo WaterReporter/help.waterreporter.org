@@ -10,19 +10,58 @@ layout: default
 
     <nav>
 
-      <ul>
-        {% for page_ in site.pages %}
-          {% if page_.title %}
-          <li>
-            <span class="post-meta">{{ page_.date | date: "%b %-d, %Y" }}</span>
+       <ul>
+      <li>
+        <a href="/">
+          Overview
+        </a>
+      </li>
+      {% assign pages = (site.pages | sort: 'order', 'last') %}
+      {% for page_ in pages %}
+        {% if page_.title and page_.navigation.level == 1 %}
+          {% if page_.url == page.url %}
+            <li>
+              <a class="page-link active" href="{{ page_.url | prepend: site.baseurl }}">{{ page_.navigation.title }}</a>
 
-            <h2>
-              <a class="post-link" href="{{ page_.url | prepend: site.baseurl }}">{{ page_.title }}</a>
-            </h2>
-          </li>
+              <ul>
+              {% for subpage_ in pages %}
+                {% if subpage_.title and subpage_.navigation.level == 2 and subpage_.navigation.parent == page_.url %}
+                  {% if subpage_.url == page.url %}
+                    <li>
+                      <a class="page-link active" href="{{ subpage_.url | prepend: site.baseurl }}">{{ subpage_.navigation.title }}</a>
+                    </li>
+                  {% else %}
+                    <li>
+                      <a class="page-link inactive" href="{{ subpage_.url | prepend: site.baseurl }}">{{ subpage_.navigation.title }}</a>
+                    </li>
+                  {% endif %}
+                {% endif %}
+              {% endfor %}
+              </ul>
+            </li>
+          {% else %}
+            <li>
+              <a class="page-link inactive" href="{{ page_.url | prepend: site.baseurl }}">{{ page_.navigation.title }}</a>
+              <ul>
+              {% for subpage_ in pages %}
+                {% if subpage_.title and subpage_.navigation.level == 2 and subpage_.navigation.parent == page_.url %}
+                  {% if subpage_.url == page.url %}
+                    <li>
+                      <a class="page-link active" href="{{ subpage_.url | prepend: site.baseurl }}">{{ subpage_.navigation.title }}</a>
+                    </li>
+                  {% else %}
+                    <li>
+                      <a class="page-link inactive" href="{{ subpage_.url | prepend: site.baseurl }}">{{ subpage_.navigation.title }}</a>
+                    </li>
+                  {% endif %}
+                {% endif %}
+              {% endfor %}
+              </ul>
+            </li>
           {% endif %}
-        {% endfor %}
-      </ul>
+        {% endif %}
+      {% endfor %}
+    </ul>
 
     </nav>
 

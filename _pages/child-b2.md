@@ -1,192 +1,40 @@
 ---
-permalink: "/parent-2/child-b2/"
+permalink: "/overview/edit-your-profile/"
 layout: page
-title:  "Child Article B 2"
+title:  "Edit Your Profile"
 navigation:
-  title: "Child Article B 2"
+  title: "Edit Your Profile"
   level: 2
-  parent: "/parent-2/"
+  parent: "/overview/"
 ---
 
-<p class="text-center">
-  Water Reporter is the fastest growing community dedicated to documenting
-  human interaction with our world’s rivers lakes and streams. Our platform
-  compiles your snapshots with those of other like-minded outdoor river and
-  environmental enthusiasts plus, you can report pollution issues to an
-  on-demand network of stewards dedicated to protecting and solving local
-  water quality issues.
+<p>
+  A complete and updated profile is a way to put your best foot forward in the Water Reporter community.  Keeping your profile photo, bio, and organization information current allows others to put a face with the experiences and better understand who is doing what on our world’s waterways.  For restoration professionals, completed profiles add validity to the actions taken to abate water quality threats.  So if you have a spare minute, follow the steps below to complete your profile and make our community that much better.
 </p>
 
-<figure class="media--image">
-  <a href="/reports/1743">
-    <img src="/images/content--about--cape.jpg" alt="" title="" width="100%">
-  </a>
-  <figcaption>
-    <a href="/reports/1743">
-      Photograph taken by Brendan McIntyre for Report #1743
-    </a>
-  </figcaption>
-</figure>
-
-<h2 class="text-center">
-  Getting started is easy
-</h2>
 
 <p>
-  Signup for an account through the mobile app or website. Use our app for
-  Android or iOS to take a picture, add comments, and share. We’ll keep
-  track of your adventures, add them to the community map, and allow others
-  to explore the world’s lakes, rivers, and oceans as they happen.
-</p>
-
-<figure class="media--image">
-  <a href="/reports/1155">
-    <img src="/images/content--about--boat.jpg" alt="" title="" width="100%">
-  </a>
-  <figcaption>
-    <a href="/reports/1155">
-      Photograph taken by Jamie Brunkow for Report #1155
-    </a>
-  </figcaption>
-</figure>
-
-<h2 class="text-center">
-  Report and Resolve Water Pollution
-</h2>
-
-<p>
-  Noticed a trash dump, spill, or something that just doesn’t look right in
-  your waterway? Post it and our inspirational community of stewards will
-  help you get it fixed.
+1. Go to <a href="https://waterreporter.org" target="_blank">WaterReporter.org</a> and <a href="https://waterreporter.org/user/login" target="_blank">log in</a> with the email and password you used to register your account.  Remember if you can’t remember your password, you can always click <a href="https://waterreporter.org/user/reset" target="_blank">“forgot password”</a>, enter your email and a message will be sent to that address with instructions on how to reset it.
 </p>
 
 <p>
-  We’ll automatically connect you and your post with restoration professionals
-  working in your watershed. Allow you to easily view and comment on
-  progress toward addressing the water quality problem. Help you keep track
-  and share the issue’s you’ve worked with others to resolve.
+2. Upon logging in, you will be sent to the home activity feed or <a href="waterreporter.org/activity" target="_blank">“Explore”</a> page where you can view the latest reports submitted by others in the community.
 </p>
 
 <p>
-  With Water Reporter, anyone can be the catalyst that sparks a grassroots
-  stream cleanup or a new restoration project that improves the health of a
-  local waterway.
+3. Find your name in the top right corner of the navigation bar, this will take you to your profile page.
 </p>
-
-<figure class="media--image">
-  <a href="/reports/1155">
-    <img src="/images/content--about--discharge.jpg" alt="" title="" width="100%">
-  </a>
-  <figcaption>
-    <a href="/reports/1155">
-      Photograph taken by Jamie Brunkow for Report #1155
-    </a>
-  </figcaption>
-</figure>
-
-<h2 class="text-center">
-  Always Evolving, Constantly Improving
-</h2>
 
 <p>
-  We are always working to find new and more efficient ways to map
-  experiences on the water and expedite water quality remediation. Here is
-  are some of the latest functionality we’ve recently completed and will be
-  releasing in the near future.
+4. Under your profile picture, locate the “edit profile” link and click it.
 </p>
 
-<table class="table table--features">
-  <thead>
-    <tr>
-      <th>
-        Feature
-      </th>
-      <th>
-        Status
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <span class="title">Affiliate with Organization</span><br />
-        <span class="category">(Web + Mobile)</span>
-      </td>
-      <td>
-        <span class="status status--development">In Development</span>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <span class="title">Marking reports as remediated</span><br />
-        <span class="category">(Mobile)</span>
-      </td>
-      <td>
-        <span class="status status--development">In Development</span>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <span class="title">Push Notifications</span>
-      </td>
-      <td>
-        <span class="status status--development">In Development</span>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <span class="title">Search and Export</span><br />
-        <span class="category">(Admin)</span>
-      </td>
-      <td>
-        <span class="status status--complete">Complete</span>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <span class="title">Marking reports as remediated</span><br />
-        <span class="category">(Web)</span>
-      </td>
-      <td>
-        <span class="status status--complete">Complete</span>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <span class="title">Commenting on reports</span><br />
-        <span class="category">(Web)</span>
-      </td>
-      <td>
-        <span class="status status--complete">Complete</span>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <span class="title">Report Submission</span><br />
-        <span class="category">(Web)</span>
-      </td>
-      <td>
-        <span class="status status--complete">Complete</span>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <span class="title">Personalized Profile Page</span>
-      </td>
-      <td>
-        <span class="status status--complete">Complete</span>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 class="text-center">
-  Acting Locally, Expanding Globally
-</h2>
 
 <p>
-  Water Reporter users benefit from an ever expanding network of stewards
-  that actively field and respond to community pollution reports with the
-  goal to enhance local water quality. If you’d like to join our network and
-  help to address the many threats facing water quality, please get in touch.
+5. You can now edit your information, upload a photo, and save your progress at the bottom of the page.
 </p>
+
+<p>
+Great job!  Now everyone can learn about the excellent work you’re doing to help map the waterways you love and help remediate threats to water quality.
+</p>
+
