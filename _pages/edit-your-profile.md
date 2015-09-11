@@ -35,7 +35,11 @@ navigation:
 5. You can now edit your information, upload a photo, and save your progress at the bottom of the page.
 </p>
 
+<p class="text-center">
+<iframe src="https://player.vimeo.com/video/138982207?title=0&byline=0&portrait=0" width="833" height="385" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</p>
+
 <p>
-Great job!  Now everyone can learn about the excellent work you’re doing to help map the waterways you love and help remediate threats to water quality.
+Great job!  Now everyone can learn about the excellent work you’re doing to map the waterways you love and help remediate threats to water quality.
 </p>
 

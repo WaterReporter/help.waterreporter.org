@@ -57,6 +57,10 @@ navigation:
 4. If you create an account through the website, be sure to download Water Reporter to your mobile device and log in so you can submit reports while out and about.
 </p>
 
+<p class="text-center">
+<iframe src="https://player.vimeo.com/video/138978394?title=0&byline=0&portrait=0" width="833" height="385" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</p>
+
 
 
 <!--   <ol>
