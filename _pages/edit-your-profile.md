@@ -1,11 +1,11 @@
 ---
-permalink: "/overview/edit-your-profile/"
+permalink: "/getting-started/edit-your-profile/"
 layout: page
 title:  "Edit Your Profile"
 navigation:
   title: "Edit Your Profile"
   level: 2
-  parent: "/overview/"
+  parent: "/getting-started/"
   order: 2
 ---
 

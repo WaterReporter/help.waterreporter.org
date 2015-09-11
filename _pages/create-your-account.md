@@ -1,11 +1,11 @@
 ---
-permalink: "/overview/create-your-account/"
+permalink: "/getting-started/create-your-account/"
 layout: page
 title:  "Create Your Account"
 navigation:
   title: "Create Your Account"
   level: 2
-  parent: "/overview/"
+  parent: "/getting-started/"
   order: 1
 ---
 

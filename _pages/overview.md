@@ -1,9 +1,9 @@
 ---
-permalink: "/overview/"
+permalink: "/getting-started/"
 layout: page
-title:  "Welcome to Water Reporter"
+title:  "Getting Started with Water Reporter"
 navigation:
-  title: "Welcome to Water Reporter"
+  title: "Getting Started with Water Reporter"
   level: 1
   parent: null
 ---

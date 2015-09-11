@@ -1,12 +1,12 @@
 ---
-permalink: "/overview/submit-your-first-report/"
+permalink: "/getting-started/submit-your-first-report/"
 layout: page
 title:  "Submit Your First Report"
 navigation:
   title: "Submit Your First Report"
   level: 2
-  parent: "/overview/"
-  order: 3
+  parent: "/getting-started/"
+  order: 4
 ---
 
 <p>

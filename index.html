@@ -5,17 +5,12 @@ layout: default
   <div class="page--content page--content--generic">
 
     <h1>
-      Pages
+      Overview
     </h1>
 
     <nav>
 
        <ul>
-      <li>
-        <a href="/">
-          Overview
-        </a>
-      </li>
       {% assign pages = (site.pages | sort: 'order', 'last') %}
       {% for page_ in pages %}
         {% if page_.title and page_.navigation.level == 1 %}
