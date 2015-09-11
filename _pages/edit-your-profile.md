@@ -6,6 +6,7 @@ navigation:
   title: "Edit Your Profile"
   level: 2
   parent: "/overview/"
+  order: 2
 ---
 
 <p>

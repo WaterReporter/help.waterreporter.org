@@ -6,6 +6,7 @@ navigation:
   title: "Create Your Account"
   level: 2
   parent: "/overview/"
+  order: 1
 ---
 
 <p>
@@ -31,6 +32,10 @@ navigation:
 
 <p>
 4. In a web browser, be sure to log in to <a href="https://waterreporter.org" target="_blank">WaterReporter.org</a> (with your same email and password) to update your profile, view your activity map, and see what's happening in the community.
+</p>
+
+<p class="text-center">
+<iframe src="https://player.vimeo.com/video/138976137?loop=1&title=0&byline=0&portrait=0" width="100%" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </p>
 
 <h2 class="text-center">
