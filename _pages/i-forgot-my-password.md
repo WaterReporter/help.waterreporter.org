@@ -1,9 +1,9 @@
 ---
-permalink: "/overview/submit-your-first-report/"
+permalink: "/overview/i-forgot-my-password/"
 layout: page
-title:  "Submit Your First Report"
+title:  "Help! I Forgot My Password!"
 navigation:
-  title: "Submit Your First Report"
+  title: "Help! I Forgot My Password!"
   level: 2
   parent: "/overview/"
   order: 3
