@@ -1,9 +1,9 @@
 ---
 permalink: "/restoration-profesionals/"
 layout: page
-title:  "Tracking Remediation with Water Reporter"
+title:  "Water Reporter for Organizations"
 navigation:
-  title: "Tracking Remediation with Water Reporter"
+  title: "Water Reporter for Organizations"
   level: 1
   parent: null
 ---
