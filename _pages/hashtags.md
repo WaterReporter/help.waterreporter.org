@@ -46,5 +46,9 @@ Why are we doing this again?  Think of it this way, pretend you launch a campaig
 </p>
 
 <h2 class="text-center">
-Cool right?
+  Next up
 </h2>
+
+<p class="text-center">
+<a href="/interacting-with-the-community/search/">Search</a>
+</p>
