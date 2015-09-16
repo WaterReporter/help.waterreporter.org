@@ -1,11 +1,6 @@
 <aside class="page--sidebar">
   <nav class="navigation navigation--primary">
     <ul>
-      <li>
-        <a href="/">
-          Overview
-        </a>
-      </li>
       {% assign pages = (site.pages | sort: 'order', 'last') %}
       {% for page_ in pages %}
         {% if page_.title and page_.navigation.level == 1 %}
