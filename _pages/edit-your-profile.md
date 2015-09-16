@@ -48,5 +48,5 @@ Great job!  Now everyone can learn about the excellent work you’re doing to ma
 </h2>
 
 <p class="text-center">
-<a href="/interacting-with-the-community/submit-your-first-report/">Submit your first report</a>
+<a href="/getting-started/submit-your-first-report/">Submit your first report</a>
 </p>

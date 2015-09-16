@@ -1,11 +1,11 @@
 ---
-permalink: "/interacting-with-the-community/submit-your-first-report/"
+permalink: "/getting-started/submit-your-first-report/"
 layout: page
 title:  "Submit Your First Report"
 navigation:
   title: "Submit Your First Report"
   level: 2
-  parent: "/interacting-with-the-community/"
+  parent: "/getting-started/"
   order: 4
 ---
 
@@ -71,5 +71,13 @@ navigation:
 </p>
 
 <p>
-Nice work rockstar!  You just submitted your first report for the world to see.
+Nice work rockstar! You just submitted your first report for the world to see.
+</p>
+
+<h2 class="text-center">
+  Next up
+</h2>
+
+<p class="text-center">
+<a href="/interacting-with-the-community/">Interacting with the community</a>
 </p>

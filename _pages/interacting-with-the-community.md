@@ -42,5 +42,9 @@ navigation:
 
 
 <h2 class="text-center">
-Nice job!
+  Next up
 </h2>
+
+<p class="text-center">
+<a href="/interacting-with-the-community/hashtags/">Using hashtags</a>
+</p>
