@@ -1,11 +1,11 @@
 ---
-permalink: "/getting-started/submit-your-first-report/"
+permalink: "/interacting-with-the-community/submit-your-first-report/"
 layout: page
 title:  "Submit Your First Report"
 navigation:
   title: "Submit Your First Report"
   level: 2
-  parent: "/getting-started/"
+  parent: "/interacting-with-the-community/"
   order: 4
 ---
 

@@ -1,11 +1,11 @@
 ---
-permalink: "/getting-started/hashtags/"
+permalink: "/interacting-with-the-community/hashtags/"
 layout: page
-title:  "Using Hashtags and Search"
+title:  "Using Hashtags"
 navigation:
-  title: "Using Hashtags and Search"
+  title: "Using Hashtags"
   level: 2
-  parent: "/getting-started/"
+  parent: "/interacting-with-the-community/"
   order: 6
 ---
 
