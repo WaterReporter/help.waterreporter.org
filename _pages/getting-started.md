@@ -27,6 +27,21 @@ navigation:
   With Water Reporter, organizations and citizens have faster, more complete access to capture and share the real time needs of a river.  Noticed something that just doesn’t look right in your waterway? Report it and we’ll connect your issue to our network of watershed professionals to help resolve the problem. With a free account, you can track the actions taken by others to address a water quality threat. Our community allows anyone to be the catalyst that improves the health of a local waterway.
 </p>
 
+<h2 class="text-center">
+Dive In!
+</h2>
+
+<p>
+In order to hit the ground running, take a look at these two helpful articles that serve as the best possible starting point.
+</p>
+
+<p>
+1. <a href="/getting-started/create-your-account/">Signup for an account</a>
+</p>
+
+<p>
+2. <a href="/getting-started/edit-your-profile/">Edit your new profile</a>
+</p>
 
 <!-- <figure class="media--image">
   <a href="/reports/1155">

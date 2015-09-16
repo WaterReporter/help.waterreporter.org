@@ -61,8 +61,13 @@ navigation:
 <iframe src="https://player.vimeo.com/video/138978394?title=0&byline=0&portrait=0" width="833" height="385" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </p>
 
+<h2 class="text-center">
+  Next up
+</h2>
 
-
+<p class="text-center">
+<a href="/getting-started/edit-your-profile/">Edit your new profile</a>
+</p>
 <!--   <ol>
     <li>Download the Water Reporter from iTunes or Google Play</li>
     <li>Add your <strong>first</strong> name and <strong>last name</strong></li>
