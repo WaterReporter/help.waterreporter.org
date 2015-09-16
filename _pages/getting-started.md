@@ -35,12 +35,16 @@ Dive In!
 In order to hit the ground running, take a look at these two helpful articles that serve as the best possible starting point.
 </p>
 
-<p>
+<p class="text-center">
 1. <a href="/getting-started/create-your-account/">Signup for an account</a>
 </p>
 
-<p>
+<p class="text-center">
 2. <a href="/getting-started/edit-your-profile/">Edit your new profile</a>
+</p>
+
+<p class="text-center">
+3. <a href="/interacting-with-the-community/submit-your-first-report/">Submit your first report</a>
 </p>
 
 <!-- <figure class="media--image">

@@ -43,3 +43,10 @@ navigation:
 Great job!  Now everyone can learn about the excellent work you’re doing to map the waterways you love and help remediate threats to water quality.
 </p>
 
+<h2 class="text-center">
+  Next up
+</h2>
+
+<p class="text-center">
+<a href="/interacting-with-the-community/submit-your-first-report/">Submit your first report</a>
+</p>
