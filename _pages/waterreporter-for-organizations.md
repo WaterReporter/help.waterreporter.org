@@ -19,7 +19,7 @@ Does your organization have a citizen pollution reporting program? Water Reporte
 <img src="/images/huc-shape.svg" width="">
 </p>
 
-<p class="text-center">
+<p>
 <strong>Subscribe to activity feeds in specific watersheds -</strong> All reports submitted by members of our community are geographically related to a standardized drainage basin or watershed.  With a verified account, we can ensure you are able to view and access reports from one or many watersheds of interest.  For example, if you are the Upper James Riverkeeper, we can give you single click access to every report that is submitted by you and others in the Upper James drainage basin.
 <p>
 
@@ -27,8 +27,21 @@ Does your organization have a citizen pollution reporting program? Water Reporte
 <img src="/images/badget--CertifiedAction--Color.svg" width="300px" height="300px">
 </p>
 
-<p class="text-center">
+<p>
 <strong>Track and communicate remediation progress to other Water Reporter users -</strong> Being the catalyst that sparks restoration action is a powerful thing.  With a verified Water Reporter account you and your organization can actively field reports from the community, comment on restoration progress, and even mark the report as resolved.  All restoration actions you take will be saved to your profile and the user who submitted the report will be notified.
+<p>
+
+<p class="text-center">
+<img src="/images/points-poly.svg" width="475px" height="275">
+</p>
+
+<p>
+<strong>Download reports by search result or watershed of interest - </strong>Our simple but powerful community search feature makes it easy to find reports according to keyword, geography or hashtag.  Search your watershed of interest by any topic and we’ll return the results for you to download as a .CSV spreadsheet or GeoJSON.
+</p>
+
+
+
+
 <p>
 
 <h2 class="text-center">
@@ -39,18 +52,3 @@ Does your organization have a citizen pollution reporting program? Water Reporte
 <a class=" text-center button button--info button--feature" href="mailto:support@waterreporter.org">Get in touch!</a>
 </p>
 
-<p>
-
-We are continually working to global expand our local network of partners that can tackle reports that pose a threat to water quality.  If you are an individual that is affiliated with an organization that does restoration work or advocacy we’d love to hear from you.  By joining our network and upgrading your Water Reporter account, you and your organization can gain added functionality for tracking restoration.  Specifically you’ll be able to: 
-
- We are firm believers that as a united community we can bring restoration professionals and Water Reporter users together to create a national social network of outdoor enthusiasts, environmentalists, leaders and everyday citizens watching over our nation’s waterways and transparently tracking progress
-
-</p>
-
-
-2. Enter a word or phrase that you’re interested in.  
-</p>
-
-<p>
-3. Click enter or search.    
-</p>

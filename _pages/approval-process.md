@@ -10,20 +10,20 @@ navigation:
 ---
 
 <p>
-  No worries, this happens to everyone.  Resetting your password can be accomplished in the steps laid out below.  Remember, if you forget the email you used to sign up for a Water Reporter account or need any other assistance, you can get in touch with us via <a href="mailto:support@waterreporter.org">support@waterreporter.org</a>.
+  Making the leap to verify your account and use the growing list of features outlinned in <a href="/waterreporter-for-organizations/" target="_blank">Water Reporter for Organizations</a>, is not complicated but it requires a review process.  Before approaching us for account verification, we require that all profile information is completed on your user account.  We advise that Water Reporter users in need of a verified account, reach out to us with a thoughtful use case of the app and watersheds of interest.  Verified accounts are granted on a case by case basis at our team’s discretion.
 </p>
 
 
 <p>
-1. Go to <a href="https://waterreporter.org" target="_blank">WaterReporter.org</a> and click <a href="https://waterreporter.org/user/login" target="_blank">sign in</a>. 
+1. Go to <a href="https://waterreporter.org" target="_blank">WaterReporter.org</a> and <a href="https://waterreporter.org/user/login" target="_blank">sign up</a> for your user account. 
 </p>
 
 <p>
-2. On the sign in page, click <a href="https://waterreporter.org/user/reset" target="_blank">“forgot password”</a>. 
+2. Ensure that all of your profile information is complete (this includes a profile photo). 
 </p>
 
 <p>
-3. Enter the email you used to register for an account and click “reset password."
+3. Decide on a watershed specific area of interest you’d like to subscribe to and get in touch!
 </p>
 
 <p>
@@ -31,9 +31,5 @@ navigation:
 </p>
 
 <p class="text-center">
-<iframe src="https://player.vimeo.com/video/139004478?title=0&byline=0&portrait=0" width="833" height="385" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<a class=" text-center button button--info button--feature" href="mailto:support@waterreporter.org">Email Support</a>
 </p>
-
-<h2 class="text-center">
-Back in business, happy waterreporting!
-</h2>
