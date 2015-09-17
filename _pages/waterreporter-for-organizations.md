@@ -52,3 +52,10 @@ Does your organization have a citizen pollution reporting program? Water Reporte
 <a class=" text-center button button--info button--feature" href="mailto:support@waterreporter.org">Get in touch!</a>
 </p>
 
+<h2 class="text-center">
+  Next up
+</h2>
+
+<p class="text-center">
+<a href="/waterreporter-for-organizations/approval-process/">Upgrading my Account</a>
+</p>
