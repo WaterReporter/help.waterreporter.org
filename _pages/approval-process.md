@@ -27,7 +27,7 @@ navigation:
 </p>
 
 <p>
-4. Check your inbox for an email with further instructions.
+4. Reach out to us through the support button below.
 </p>
 
 <p class="text-center">
