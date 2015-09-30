@@ -15,7 +15,7 @@ navigation:
 
 
 <p>
-1. Go to <a href="https://waterreporter.org" target="_blank">WaterReporter.org</a> and <a href="https://waterreporter.org/user/login" target="_blank">sign up</a> for your user account. 
+1. Go to <a href="https://www.waterreporter.org" target="_blank">WaterReporter.org</a> and <a href="https://www.waterreporter.org/user/login" target="_blank">sign up</a> for your user account. 
 </p>
 
 <p>
