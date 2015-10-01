@@ -31,7 +31,7 @@ navigation:
 </p>
 
 <p>
-4. In a web browser, be sure to log in to <a href="https://waterreporter.org" target="_blank">WaterReporter.org</a> (with your same email and password) to update your profile, view your activity map, and see what's happening in the community.
+4. In a web browser, be sure to log in to <a href="https://www.waterreporter.org" target="_blank">WaterReporter.org</a> (with your same email and password) to update your profile, view your activity map, and see what's happening in the community.
 </p>
 
 <p class="text-center">
@@ -43,7 +43,7 @@ navigation:
 </h2>
 
 <p>
-1. In a new browser tab, visit the <a href="https://waterreporter.org/user/register" target="_blank">Sign Up</a> Page at <a href="https://waterreporter.org" target="_blank">WaterReporter.org</a>. Enter a valid email, choose a password, and click signup.  Make sure you remember your email and password, this will be your log-in information going forward.
+1. In a new browser tab, visit the <a href="https://www.waterreporter.org/user/register" target="_blank">Sign Up</a> Page at <a href="https://www.waterreporter.org" target="_blank">WaterReporter.org</a>. Enter a valid email, choose a password, and click signup.  Make sure you remember your email and password, this will be your log-in information going forward.
 </p>
 
 <p>
