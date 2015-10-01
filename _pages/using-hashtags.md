@@ -16,7 +16,7 @@ navigation:
 
 
 <p>
-Sign into the mobile app or through <a href="https://waterreporter.org" target="_blank">WaterReporter.org</a> with your registered email and password and start submitting a new report.
+Sign into the mobile app or through <a href="https://www.waterreporter.org" target="_blank">WaterReporter.org</a> with your registered email and password and start submitting a new report.
 </p>
 
 <p>
@@ -28,11 +28,11 @@ Sign into the mobile app or through <a href="https://waterreporter.org" target="
 </p>
 
 <p>
-4. Appropriate hashtags look something like this: “<a href="http://dev.waterreporter.org/search?q=%7B%22filters%22:%5B%7B%22name%22:%22report_description%22,%22op%22:%22ilike%22,%22val%22:%22%25%23sediment%25%22%7D%5D,%22order_by%22:%5B%7B%22field%22:%22report_date%22,%22direction%22:%22desc%22%7D,%7B%22field%22:%22id%22,%22direction%22:%22desc%22%7D%5D%7D&page=1" target="_blank">#sediment</a> <a href="http://dev.waterreporter.org/search?q=%7B%22filters%22:%5B%7B%22name%22:%22report_description%22,%22op%22:%22ilike%22,%22val%22:%22%25%23erosion%25%22%7D%5D,%22order_by%22:%5B%7B%22field%22:%22report_date%22,%22direction%22:%22desc%22%7D,%7B%22field%22:%22id%22,%22direction%22:%22desc%22%7D%5D%7D&page=1" target="_blank">#erosion</a>” that said, we cannot work with things that look like the following: “#sediment#erosion” or “#sediment, #erosion.”
+4. Appropriate hashtags look something like this: “<a href="http://www.waterreporter.org/search?q=%7B%22filters%22:%5B%7B%22name%22:%22report_description%22,%22op%22:%22ilike%22,%22val%22:%22%25%23sediment%25%22%7D%5D,%22order_by%22:%5B%7B%22field%22:%22report_date%22,%22direction%22:%22desc%22%7D,%7B%22field%22:%22id%22,%22direction%22:%22desc%22%7D%5D%7D&page=1" target="_blank">#sediment</a> <a href="http://dev.waterreporter.org/search?q=%7B%22filters%22:%5B%7B%22name%22:%22report_description%22,%22op%22:%22ilike%22,%22val%22:%22%25%23erosion%25%22%7D%5D,%22order_by%22:%5B%7B%22field%22:%22report_date%22,%22direction%22:%22desc%22%7D,%7B%22field%22:%22id%22,%22direction%22:%22desc%22%7D%5D%7D&page=1" target="_blank">#erosion</a>” that said, we cannot work with things that look like the following: “#sediment#erosion” or “#sediment, #erosion.”
 </p>
 
 <p>
-Check out the <a href="http://dev.waterreporter.org/reports/2159" target="_blank">following report</a> that is an <strong>#awesome</strong> example of <strong>#hashtag</strong> use.
+Check out the <a href="http://www.waterreporter.org/reports/2159" target="_blank">following report</a> that is an <strong>#awesome</strong> example of <strong>#hashtag</strong> use.
 </p>
 
 
