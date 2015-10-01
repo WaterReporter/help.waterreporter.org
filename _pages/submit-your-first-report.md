@@ -44,7 +44,7 @@ navigation:
 </h2>
 
 <p>
-1. Go to <a href="https://waterreporter.org" target="_blank">WaterReporter.org</a> and <a href="http://dev.waterreporter.org/user/login" target="_blank">sign in</a>  
+1. Go to <a href="https://www.waterreporter.org" target="_blank">WaterReporter.org</a> and <a href="http://www.waterreporter.org/user/login" target="_blank">sign in</a>  
 </p>
 
 <p>

@@ -17,7 +17,7 @@ navigation:
 
 
 <p>
-1. Go to <a href="https://waterreporter.org" target="_blank">WaterReporter.org</a> and <a href="https://waterreporter.org/user/login" target="_blank">log in</a> with the email and password you used to register your account.  If you can’t remember your password, you can always click <a href="https://waterreporter.org/user/reset" target="_blank">“forgot password”</a>, enter your email and a message will be sent to that address with instructions on how to reset it.. 
+1. Go to <a href="https://www.waterreporter.org" target="_blank">WaterReporter.org</a> and <a href="https://www.waterreporter.org/user/login" target="_blank">log in</a> with the email and password you used to register your account.  If you can’t remember your password, you can always click <a href="https://www.waterreporter.org/user/reset" target="_blank">“forgot password”</a>, enter your email and a message will be sent to that address with instructions on how to reset it.. 
 </p>
 
 <p>

@@ -15,11 +15,11 @@ navigation:
 
 
 <p>
-1. Go to <a href="https://waterreporter.org" target="_blank">WaterReporter.org</a> and click <a href="https://waterreporter.org/user/login" target="_blank">sign in</a>. 
+1. Go to <a href="https://www.waterreporter.org" target="_blank">WaterReporter.org</a> and click <a href="https://www.waterreporter.org/user/login" target="_blank">sign in</a>. 
 </p>
 
 <p>
-2. On the sign in page, click <a href="https://waterreporter.org/user/reset" target="_blank">“forgot password”</a>. 
+2. On the sign in page, click <a href="https://www.waterreporter.org/user/reset" target="_blank">“forgot password”</a>. 
 </p>
 
 <p>
