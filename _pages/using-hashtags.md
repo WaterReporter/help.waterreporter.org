@@ -16,7 +16,7 @@ navigation:
 
 
 <p>
-Sign into the mobile app or through <a href="https://www.waterreporter.org" target="_blank">WaterReporter.org</a> with your registered email and password and start submitting a new report.
+1. Sign into the mobile app or through <a href="https://www.waterreporter.org" target="_blank">WaterReporter.org</a> with your registered email and password and start submitting a new report.
 </p>
 
 <p>
