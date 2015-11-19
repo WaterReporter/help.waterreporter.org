@@ -11,8 +11,8 @@ navigation:
 
 
 <p>
- Do you have something to say and want to connect with others about their reports? Water Reporter allows users to start the conversation by commenting and adding pictures to a report thread.Comments are a great way express concern about  a potential threat to water quality or just let someone know their paddling trip looked like a boat-load of fun.  Remember that anything you say in the community can be seen by the public, so keep the dialogue appropriate for everyone.
-.
+Connect with others to learn about their experiences and the steps to resolving pollution issues. Water Reporter allows users to participate in the conversation by commenting and adding pictures to a single report thread. Comments are a great way express concern about a potential threat to water quality or just let someone know their paddling trip looked like a boat-load of fun. Remember that anything you say in the community can be seen by the public, so keep the dialogue appropriate for everyone.
+
 </p>
 
 
