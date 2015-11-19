@@ -10,7 +10,8 @@ navigation:
 ---
 
 <p>
-  Anyone can view the latest posts from the Water Reporter community, but in order to share your own experiences, connect with others, or help remediate pollution, you will need to sign up for a free account.  As a newly registered user, you will benefit from having your own profile and map for sharing the many moments on a local lake, river, or beach.  
+  Anyone can view the latest posts from the Water Reporter community, but in order to share your own experiences, connect with others, or help remediate pollution, you need to sign up for a free account. As a newly registered user, you benefit from having your own profile and map for sharing the many moments on a local lake, river, or beach.
+ 
 </p>
 
 
