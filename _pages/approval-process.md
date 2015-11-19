@@ -10,7 +10,8 @@ navigation:
 ---
 
 <p>
-  Making the leap to verify your account and use the growing list of features outlinned in <a href="/waterreporter-for-organizations/" target="_blank">Water Reporter for Organizations</a>, is not complicated but it requires a review process.  Before approaching us for account verification, we require that all profile information is completed on your user account.  We advise that Water Reporter users in need of a verified account, reach out to us with a thoughtful use case of the app and watersheds of interest.  Verified accounts are granted on a case by case basis at our team’s discretion.
+  Making the leap to verify your account and use the growing list of features outlinned in <a href="/waterreporter-for-organizations/" target="_blank">Water Reporter for Organizations</a>, is not complicated but it requires a review process.  Before approaching us for account verification, we require that all profile information is completed on your user account. We advise that Water Reporter users in need of a verified account reach out to us with a thoughtful use case of the app and watersheds of interest. Verified accounts are granted on a case by case basis at our team’s discretion.
+
 </p>
 
 
