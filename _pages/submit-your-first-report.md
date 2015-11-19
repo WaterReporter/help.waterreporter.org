@@ -10,7 +10,8 @@ navigation:
 ---
 
 <p>
-  With Water Reporter you can document your favorite steep creek run, a morning dawn patrol at your local surf break, or really any memorable day on the water.  We’ll ensure your reports are mapped, added to your profile, and made available for others to view in our community.  Submitting reports is a fun and easy way to paint a living picture of how people enjoy their local resources.  Our mobile app is the fastest avenue to add a report in the moment or you can leave the smartphone at home and share a report through WaterReporter.org when you’re back at your desk.
+  Submitting reports is a fun and easy way to paint a living picture of how people enjoy their local resources. With Water Reporter you can document your favorite steep creek run, a morning dawn patrol at your local surf break, or any memorable moment on the water. We’ll ensure your reports are mapped, added to your profile, and made available for others to view in our community.  Our mobile app is the fastest avenue to add a report in the moment or you can leave the smartphone at home and share a report through WaterReporter.org when you’re back online.
+
 </p>
 
 
