@@ -10,7 +10,7 @@ navigation:
 ---
 
 <p>
-  A complete and updated profile is a way to put your best foot forward in the Water Reporter community.  Keeping your profile photo, bio, and organization information current allows others to put a face with the experiences and better understand who is doing what on our world’s waterways.  For restoration professionals, completed profiles add validity to the actions taken to abate water quality threats.  So if you have a spare minute, follow the steps below to complete your profile and make our community that much better.
+ A complete and updated profile is the most effective way to put your best foot forward in the Water Reporter community. Keep your profile photo, bio, and organization information current to allow others to put a face with the experiences and better understand each other’s connection to the nation’s rivers. For restoration professionals, completed profiles add validity to the actions taken to abate water quality threats. So if you have a spare minute, follow the steps below to complete your profile and make our community more effective at examining our interactions with our nation’s waterways
 </p>
 
 
@@ -40,7 +40,8 @@ navigation:
 </p>
 
 <p>
-Great job!  Now everyone can learn about the excellent work you’re doing to map the waterways you love and help remediate threats to water quality.
+Great job! Now everyone can learn about your valued contributions to map the waterways you love and help remediate threats to water quality.
+
 </p>
 
 <h2 class="text-center">
