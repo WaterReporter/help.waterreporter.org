@@ -9,7 +9,8 @@ navigation:
 ---
 
 <p>
-  Water Reporter is the easiest way to document and map your experiences on the world's waterways. Use our app to snap a picture while on the river, describe your experience with a few words or hashtags, and share. We’ll keep track of your adventures, add them to the community map, and allow others to explore the world’s lakes, rivers, and oceans as they happen. We built Water Reporter to help tease out local knowledge on how humans interact with the the many watersheds around the globe.
+  Water Reporter is the easiest way to document and map your experiences on the world's waterways. Use our app to snap a picture while on the river, describe your experience with a few words or hashtags, and share. Water Reporter keeps track of your adventures, adds them to the community map, and allows others to explore the world’s lakes, rivers, and oceans as they happen. We built Water Reporter to help tease out local knowledge on how humans interact with watersheds across the nation.
+
 </p>
 
 <!-- <figure class="media--image">
@@ -24,7 +25,8 @@ navigation:
 </figure> -->
 
 <p>
-  With Water Reporter, organizations and citizens have faster, more complete access to capture and share the real time needs of a river.  Noticed something that just doesn’t look right in your waterway? Report it and we’ll connect your issue to our network of watershed professionals to help resolve the problem. With a free account, you can track the actions taken by others to address a water quality threat. Our community allows anyone to be the catalyst that improves the health of a local waterway.
+  With Water Reporter organizations and citizens have faster, more complete access to capture and share the real time condition of a river. Noticed something that just doesn’t look right in your waterway? Report it and we’ll connect your issue to our network of watershed professionals to help resolve the problem. With a free account, you can track the actions taken by others to address a water quality threat. Our community allows anyone to be the catalyst that improves the health of a local waterway.
+
 </p>
 
 <h2 class="text-center">
@@ -32,7 +34,8 @@ Dive In!
 </h2>
 
 <p>
-In order to hit the ground running, take a look at these two helpful articles that serve as the best possible starting point.
+In order to hit the ground running, take a look at these three helpful articles that serve as the best possible starting point.
+
 </p>
 
 <p class="text-center">
