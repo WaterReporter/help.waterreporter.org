@@ -10,7 +10,8 @@ navigation:
 ---
 
 <p>
- Hashtags are one of the best ways to describe your report because it enables our system to keep track of trending reports that are relevant to your interests.  Using hashtags will also make it easier to share your reports across other communities with broader user bases such as Facebook, Twitter, and Instagram.  While there are many different ways to use hashtags to spice up a report, the following steps will get you started.
+ Hashtags are one of the best ways to describe your report because they enable our system to keep track of trending reports that are relevant to your interests. Using hashtags will also make it easier to share your reports across other communities with broader user bases such as Facebook, Twitter, and Instagram. While there are many different ways to use hashtags to spice up a report, the following steps will get you started.
+
 .
 </p>
 
