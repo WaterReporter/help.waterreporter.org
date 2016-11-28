@@ -1,12 +1,18 @@
 ---
 permalink: "/getting-started/"
 layout: page
-title:  "Getting Started with Water Reporter"
+title:  ""
 navigation:
   title: "Getting Started with Water Reporter"
   level: 1
   parent: null
 ---
+
+<p class="text-center">
+<img src="/images/logo--WaterReporter--MarkOnly.png" width="">
+</p>
+
+<h1>Getting Started with Water Reporter</h1>
 
 <p>
   Water Reporter is the easiest way to document and map your experiences on the world's waterways. Use our app to snap a picture while on the river, describe your experience with a few words or hashtags, and share. Water Reporter keeps track of your adventures, adds them to the community map, and allows others to explore the world’s lakes, rivers, and oceans as they happen. We built Water Reporter to help tease out local knowledge on how humans interact with watersheds across the nation.
@@ -22,7 +28,7 @@ navigation:
       Photograph taken by John Dawes for Report #1670
     </a>
   </figcaption>
-</figure> -->
+</figure>  -->
 
 <p>
   With Water Reporter organizations and citizens have faster, more complete access to capture and share the real time condition of a river. Noticed something that just doesn’t look right in your waterway? Report it and we’ll connect your issue to our network of watershed professionals to help resolve the problem. With a free account, you can track the actions taken by others to address a water quality threat. Our community allows anyone to be the catalyst that improves the health of a local waterway.
