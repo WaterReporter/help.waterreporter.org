@@ -1,89 +1,878 @@
----
-layout: default
----
-<main class="site--content site--content--submit">
-  <div class="page--content page--content--generic">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Water Reporter Help">
+    <meta name="keywords" content="">
 
-    <h1>
-      Water Reporter Help
-    </h1>
+    <title>Water Reporter Help</title>
 
-    <p>
-      Have a question? Check out our growing list of help topics below. If you still can't find an answer <a href="mailto:support@waterreporter.org">email our support team</a>. We're happy to help.
+    <!-- Styles -->
+    <link href="assets/css/theDocs.all.min.css" rel="stylesheet">
+    <link href="assets/css/skin-blue.css" rel="stylesheet">
+    <link href="assets/css/custom.css" rel="stylesheet">
 
-    <nav>
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:100,300,400,500%7CLato:300,400' rel='stylesheet' type='text/css'>
 
-       <ul>
-      {% assign pages = (site.pages | sort: 'order', 'last') %}
-      {% for page_ in pages %}
-        {% if page_.title and page_.navigation.level == 1 %}
-          {% if page_.url == page.url %}
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="icon" href="assets/img/favicon.ico">
+  </head>
+
+
+  <body data-spy="scroll" data-target=".sidebar" data-offset="200">
+
+
+
+    <!-- Sidebar -->
+    <aside class="sidebar sidebar-boxed">
+
+      <a class="sidebar-brand" href="index.html"><img src="assets/img/logo-sidebar-alt.png" alt="logo"></a>
+
+       <ul class="nav sidenav dropable sticky">
             <li>
-              <a class="page-link active" href="{{ page_.url | prepend: site.baseurl }}">{{ page_.navigation.title }}</a>
-
+              <a href="#quickstartqs">Quick Start</a>
               <ul>
-              {% for subpage_ in pages %}
-                {% if subpage_.title and subpage_.navigation.level == 2 and subpage_.navigation.parent == page_.url %}
-                  {% if subpage_.url == page.url %}
-                    <li>
-                      <a class="page-link active" href="{{ subpage_.url | prepend: site.baseurl }}">{{ subpage_.navigation.title }}</a>
-                    </li>
-                  {% else %}
-                    <li>
-                      <a class="page-link inactive" href="{{ subpage_.url | prepend: site.baseurl }}">{{ subpage_.navigation.title }}</a>
-                    </li>
-                  {% endif %}
-                {% endif %}
-              {% endfor %}
+                <li><a href="#signup">Sign Up</a></li>
+                <li><a href="#browsefeed">Browse the Community</a></li>
+                <li><a href="#share">Share</a></li>
+                <li><a href="#connect">Connect</a></li>
               </ul>
             </li>
-          {% else %}
-            <li>
-              <a class="page-link inactive" href="{{ page_.url | prepend: site.baseurl }}">{{ page_.navigation.title }}</a>
-              <ul>
-              {% for subpage_ in pages %}
-                {% if subpage_.title and subpage_.navigation.level == 2 and subpage_.navigation.parent == page_.url %}
-                  {% if subpage_.url == page.url %}
-                    <li>
-                      <a class="page-link active" href="{{ subpage_.url | prepend: site.baseurl }}">{{ subpage_.navigation.title }}</a>
-                    </li>
-                  {% else %}
-                    <li>
-                      <a class="page-link inactive" href="{{ subpage_.url | prepend: site.baseurl }}">{{ subpage_.navigation.title }}</a>
-                    </li>
-                  {% endif %}
-                {% endif %}
-              {% endfor %}
+            <li><a href="#shareareport">Sharing a Report</a>
+               <ul>
+                <li><a href="#postwr">Post to Water Reporter</a></li>
+                <li><a href="#hashtags">Using Hashtags (#)</a></li>
+                <li><a href="#sharesocial">Sharing a Report to Social Media</a></li>
               </ul>
             </li>
+             <li><a href="#groups">Groups</a>
+               <ul>
+                <li><a href="#joingroup">Join a Group</a></li>
+                <li><a href="#joinus">Become a Group</a></li>
+              </ul>
+            </li>
+            <li><a href="#notify">Notifications</a>
+               <ul>
+                <li><a href="#configurenotify">Configure Notifications</a></li>
+              </ul>
+            </li>
+            <li><a href="#mediakit">Media Kit</a>
+            </li>
+          </ul>
+
+    </aside>
+    <!-- END Sidebar -->
 
 
+    <header class="site-header navbar-fullwidth">
 
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-    
-<li>
-              <a class="page-link active" target="_blank" href="http://docs.waterreporter.org/">API Documentation</a>
-              </li>
-           
-         
-             <li>
-              <a class="page-link active" target="_blank" href="http://help.waterreporter.org/media/WaterReporter--MediaKit.zip">Media Kit</a>
-              </li>
-    
-    </ul>
+      <!-- Top navbar & branding -->
+      <nav class="navbar navbar-default">
+        <div class="container">
 
-         
-           
-    </nav>
+          <!-- Toggle buttons and brand -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="true" aria-controls="navbar">
+              <span class="glyphicon glyphicon-option-vertical"></span>
+            </button>
+
+            <button type="button" class="navbar-toggle for-sidebar" data-toggle="offcanvas">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <!-- END Toggle buttons and brand -->
+
+          <!-- Top navbar -->
+          <div id="navbar" class="navbar-collapse collapse" aria-expanded="true" role="banner">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="https://www.waterreporter.org/community/">Community</a></li>
+              <li class="active"><a href="https://medium.com/water-reports">Blog</a></li>
+              <li><a href="https://www.waterreporter.org/community/user/register">Sign Up</a></li>
+              <li class="hero"><a href="https://www.waterreporter.org/community/user/login">Log In</a></li>
+            </ul>
+          </div>
+          <!-- END Top navbar -->
+
+        </div>
+      </nav>
+      <!-- END Top navbar & branding -->
+
+      <!-- Banner -->
+  <div class="banner overlay-black" style="background-image: url(assets/img/help-overview-banner.jpg);">
+    <div class="container text-center">
+      <h1>Welcome to our help docs!</h1>
+      <h5>This is a one stop shop designed to make our community an integral part of your adventures outside or your organizations efforts to improve water quality.  Remember if you have any questions our support team is an email away.</h5>
+      <br><br><br>
+      <p><a class="btn btn-white btn-lg btn-outline" href="mailto:support@waterreporter.org" role="button">Get in Touch!</a></p>
+    </div>
+  </div>
+  <!-- END Banner -->
+      
+    </header>
 
 
-    <p class="rss-subscribe text-center">
-      <small><small>
-        Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
-      </small></small>
-    </p>
+    <main class="container-fluid">
+      <main class="container-fluid">
+
+      <!-- Main content -->
+      <article class="main-content" role="main">
+
+        <section>
+        <h2 id="quickstartqs">Quick Start</h2>
+
+         <p>Welcome to Water Reporter, it’s great to have you as part of the community.  Our application is the easiest way to share and map your experiences on the world’s waterways and connect with growing network of organizations working to actively improve your local river, lake, or ocean.  This Quick Start, provides everything you need to know to get up and running in about five minutes so you can start capturing your experiences</p>
+
+      
+
+
+         <ol class="toc">
+          <li>Creating your account and setting up your profile</li>
+          <li>Browsing the community</li>
+          <li>Sharing your first report</li>
+          <li>Connecting via reports and groups</li>
+          </ol>
+
+          
+          <h3 id="signup">Signup</h3>
+
+          <p>To get started sharing your own experiences, connecting with others, or helping to improve water quality, you need to sign up for a free account. As a newly registered user, you’ll be able to explore the latest activity in the community as well as access a variety of features right form your smartphone or web browser. When you setup your account you will be able to tell us about yourself, join some groups, and start exploring.   Follow the steps below:</p>
+
+          <div class="tabs tabs-text" style="padding-top:50px">
+
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs text-center" role="tablist">
+    <li role="presentation" class="active">
+      <a href="#home3" aria-controls="home" role="tab" data-toggle="tab">Step 1</a>
+    </li>
+    <li role="presentation">
+      <a href="#profile3" aria-controls="profile" role="tab" data-toggle="tab">Step 2</a>
+    </li>
+    <li role="presentation">
+      <a href="#messages3" aria-controls="messages" role="tab" data-toggle="tab">Step 3</a>
+    </li>
+    <li role="presentation">
+      <a href="#settings3" aria-controls="settings" role="tab" data-toggle="tab">Success <i class="fa fa-check"></i></a>
+    </li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active fade in" id="home3"> 
+
+       <p>Download the Water Reporter app from <a href="https://itunes.apple.com/us/app/the-water-reporter/id668005311?mt=8">iTunes</a> or <a href="https://play.google.com/store/apps/details?id=com.viableindustries.waterreporter">Google Play</a>. Launch the app and you will be directed to the registration page.  Enter a valid email address and choose a password.  When you're all done, tap "Sign Up."</p>
+      
+       <img class="img-responsive center-block" src="assets/img/signup-gs.png" style="height:600px" "padding-top: 50px">
+     
+        </div>
+
+
+    <div role="tabpanel" class="tab-pane fade" id="profile3">
+
+      <p>Complete your profile information by providing a profile picture, your name, contact info, and a brief description.  When you're all done tap next.</p>
+
+        <img class="img-responsive center-block" src="assets/img/profile-setup.png" style="height:600px" "padding-top: 50px">
+
+        </div>
+
+
+    <div role="tabpanel" class="tab-pane fade" id="messages3"> 
+
+        <p>If you see a group you'd like to share reports with, tap join. The group administrators will be notified that you have joined and you will be able to see other reports and actions taken by other members of the organization.</p>
+
+        <img class="img-responsive center-block" src="assets/img/join-group.png" style="height:600px" "padding-top: 50px">
+
+        </div>
+    <div role="tabpanel" class="tab-pane fade" id="settings3">
+
+      
+              <p>At this stage you should see the latest activity shared by other Water Reporter users.  Now with your profile setup you are ready to start sharing reports and exploring the community.</p>
+            
+
+        <img class="img-responsive center-block" src="assets/img/act-feed.png" style="height:600px" "padding-top: 50px">
+
+      </div>
+  </div>
+
+</div>
+
+  <h2 id="browsefeed">Browse the Community</h2>
+            
+           Water Reporter’s Activity Feed is a great way to stay on top of all the latest reports being shared by our active user base.  It serves as a convenient launch pad for commenting on a report of interest, sharing a report to social media, and even getting turn by turn directions to the location.  Our aim is to make it as easy as possible to stay up to date on the latest community activity while being exposed to observations and reports from a diverse array of watersheds.  Below are a few ways you can interact with reports shared by our community members.
+
+
+          <h3>Interacting with the Feed</h3>
+
+          <p>Each report consists of simple routes to additional content or actions.  Starting with the top of the report and working our way down, users will see the community member who posted, their profile picture (if applicable), date of the report, and the watershed it was shared from.  Tap on the user’s profile picture to learn more about them, view a list of their observations, any actions taken, as well as view the groups they belong to.  Under the report photo you can find a helpful toolbar, report description (if provided) as well as hashtags for categorizing the report (if provided).</p>
+
+          <div class="row">
+  <div class="col-md-6">
+    <img class="img-responsive center-block" src="assets/img/activity-feed.png" style="height:600px" "padding-top: 50px">
+  </div>
+
+  <div class="col-md-6">
+    <div class="jumbotron jumbotron-sm">
+      <div class="container">
+        <h4>Feed Overview</h4>
+        <p> <table class="table">
+  <thead>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Profile photo and name displayed for every user, routes to user's profile.</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Watershed linked to report displayed at <a href="https://water.usgs.gov/GIS/huc.html">HUC 8</a> level</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Report photo is geo-located and displayed</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>Pinpoint pulls up the report on the community map and loads in others nearby</td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td>Access turn-by-turn directions to report site</td>
+    </tr>
+    <tr>
+      <th scope="row">6</th>
+      <td>Converse and share updates on existing reports via comments</td>
+    </tr>
+    <tr>
+      <th scope="row">7</th>
+      <td>Explore all reports submitted on the Activity Feed.</td>
+    </tr>
+    <tr>
+      <th scope="row">8</th>
+      <td>Share a geo-located report from your mobile device</td>
+    </tr>
+    <tr>
+      <th scope="row">9</th>
+      <td>Search your reports and manage your profile</td>
+    </tr>
+  </tbody>
+</table></p>
+       
+      </div>
+    </div>
+  </div>
+</div>
+                  
+          <h3 id="share">Share your first report</h3>
+
+           <p>Submitting reports is a fun and easy way to paint a living picture of how people enjoy their local resources. With Water Reporter you can document your favorite steep creek run, a morning dawn patrol at your local surf break, or any memorable moment on the water. We’ll ensure your reports are mapped, added to your profile, and made available for others to view in our community. Our mobile app is the fastest avenue to add a report in the moment or you can leave the smartphone at home and share a report through WaterReporter.org when you’re back online.</p>
+
+          <div class="tabs tabs-text" style="padding-top:50px">
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs text-center" role="tablist">
+    <li role="presentation" class="active">
+      <a href="#photocom" aria-controls="photocom" role="tab" data-toggle="tab">Photo and Comments</a>
+    </li>
+    <li role="presentation">
+      <a href="#date" aria-controls="date" role="tab" data-toggle="tab">Date</a>
+    </li>
+    <li role="presentation">
+      <a href="#confirmlocal" aria-controls="confirmlocal" role="tab" data-toggle="tab">Confirm Location</a>
+    </li>
+    <li role="presentation">
+      <a href="#pickgroup" aria-controls="pickgroup" role="tab" data-toggle="tab">Pick a Group and Ship</a>
+    </li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active fade in" id="photocom"> 
+
+       <p>Tap the comment body and type a few brief sentences about what’s happening.  Remember, you can always use hashtags to classify your report with others like it in the community.  Tap on the camera to either snag a photo or add one from your photo roll.</p>
+      
+       <img class="img-responsive center-block" src="assets/img/submit-comments.png" style="height:600px" "padding-top: 50px">
+     
+        </div>
+
+
+    <div role="tabpanel" class="tab-pane fade" id="date">
+
+      <p>We’ll automatically plug the date for you but if this is a report from a previous time out on the water, tap the calendar button and choose the right day.</p>
+
+        <img class="img-responsive center-block" src="assets/img/submit-date.png" style="height:600px" "padding-top: 50px">
+
+        </div>
+
+
+    <div role="tabpanel" class="tab-pane fade" id="confirmlocal"> 
+
+        <p>Grabbing your location is a snap.  Tap on the map pin and Water Reporter will plot your location.  You can always move the map to fine tune and when you are done tap the check mark in the top right corner.</p>
+
+        <img class="img-responsive center-block" src="assets/img/submit-location.png" style="height:600px" "padding-top: 50px">
+
+        </div>
+    <div role="tabpanel" class="tab-pane fade" id="pickgroup">
+
+      
+              <p>If you’ve joined groups, you can flip the bottom of the screen to make sure group administrators are notified that you’ve shared the report.  Keep in mind you can always go back and edit a report’s date, comments, location, or group(s).  Tap the send button and it’s off!  Next let’s talk about notifications and comments so you can connect with others in the community.</p>
+            
+
+        <img class="img-responsive center-block" src="assets/img/submit-groups.png" style="height:600px" "padding-top: 50px">
+
+      </div>
 
   </div>
-</main>
+
+</div>
+
+          
+          <h3 id="connect">Connect</h3>
+
+           <p>In Water Reporter, people form connections by joining organizations, sharing reports, and commenting through report threads.  Whether you are keeping track of your favorite places to paddle, helping engaged community members tackle a stream cleanup, or identifying algal blooms for a citizen science campaign, Water Reporter makes it seamless for everyone to stay connected via one easy to use platform.  Turn on notifications and you will always be kept in the loop when someone comments or takes action on a report via automated email notifications.</p>
+
+          <div class="tabs tabs-text" style="padding-top:50px">
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs text-center" role="tablist">
+    <li role="presentation" class="active">
+      <a href="#notifications" aria-controls="notifications" role="tab" data-toggle="tab">Turn on Notifications</a>
+    </li>
+    <li role="presentation">
+      <a href="#addcomment" aria-controls="addcomment" role="tab" data-toggle="tab">Add a Comment</a>
+    </li>
+    <li role="presentation">
+      <a href="#notified" aria-controls="notified" role="tab" data-toggle="tab">Get Notified</a>
+    </li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active fade in" id="notifications"> 
+
+       <p>From your profile, tap on the gear and scroll down to where you see two switches.  Flipping one or both of these to on, will allow Water Reporter to send you email notifications anytime an individual comments on your report or marks pollution reports as resolved.</p>
+      
+      <img class="img-responsive center-block" src="assets/img/notify.png" style="height:600px" "padding-top: 50px">
+     
+        </div>
+
+
+    <div role="tabpanel" class="tab-pane fade" id="addcomment">
+
+      <p>Comments are a great way to start the conversation around a specific report of interest.  You can comment on any report in the community by tapping on the comment bubble of open reports or blue badge where actions have been taken.  Tapping on the photo icon will let you take a picture or upload one on your camera roll.  If others in the thread have their notifications turned on, we’ll send them an email letting them know you’ve added your ten cents to the report thread.</p>
+
+         <img class="img-responsive center-block" src="assets/img/comment.png" style="height:600px" "padding-top: 50px">
+
+
+        </div>
+
+
+    <div role="tabpanel" class="tab-pane fade" id="notified"> 
+
+        <p style="padding-bottom: 50px">If your notifications are turned on, we’ll make sure you receive emails any time someone comments or marks your report as resolved.  Our notifications look like this:</p>
+
+       <img class="img-responsive center-block" src="assets/img/browser-comment.png"  "padding-top: 50px">
+
+        </div>
+    <div role="tabpanel" class="tab-pane fade" id="pickgroup">
+
+      
+              <p>If you’ve joined groups, you can flip the toggle at the bottom of the screen to make sure group administrators are notified that you’ve shared the report.  Keep in mind you can always go back and edit a report’s date, comments, location, or group(s)</p>
+
+              <p>Tap the send button and it’s off!  Next let’s talk about notifications and comments so you can connect with others in the community.</p>
+            
+
+        
+        <img class="img-responsive center-block" src="assets/img/submit-groups.png" style="height:600px" "padding-top: 50px">
+
+      </div>
+
+  </div>
+
+</div>
+          
+
+
+        </section>
+
+
+        <section>
+          <h2 id="shareareport">Sharing a Report</h2>
+            
+         Posting reports to Water Reporter is a fast and easy way to build a living map of your experiences on your favorite lake, river, or ocean.  Each observation allows you to add a photo, some comments and hashtags, as well as a location.  If you are using Water Reporter as part of an organization led citizen science or pollution reporting campaign, you can conveniently share reports directly to a group.  In this section of the help docs, we’ll go through some tips that will make sharing your observations even easier.
+
+
+          <h3 id="postwr">Post to Water Reporter</h3>
+
+          <div class="tabs tabs-text" style="padding-top:50px">
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs text-center" role="tablist">
+    <li role="presentation" class="active">
+      <a href="#photocom1" aria-controls="photocom" role="tab" data-toggle="tab">Photo and Comments</a>
+    </li>
+    <li role="presentation">
+      <a href="#date1" aria-controls="date" role="tab" data-toggle="tab">Date</a>
+    </li>
+    <li role="presentation">
+      <a href="#confirmlocal1" aria-controls="confirmlocal" role="tab" data-toggle="tab">Confirm Location</a>
+    </li>
+    <li role="presentation">
+      <a href="#pickgroup1" aria-controls="pickgroup" role="tab" data-toggle="tab">Pick a Group and Ship</a>
+    </li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active fade in" id="photocom1"> 
+
+       <p>From the main activity feed, tap the camera (submit) button, located in the bottom navigation bar of the application.  Tap the comment body and type a few brief sentences about what’s happening.  Remember, you can always use hashtags to classify your report with others like it in the community.  Tap on the camera to either snag a photo or add one from your photo roll.</p>
+      
+       <img class="img-responsive center-block" src="assets/img/submit-comments.png" style="height:600px" "padding-top: 50px">
+     
+        </div>
+
+
+    <div role="tabpanel" class="tab-pane fade" id="date1">
+
+      <p>We’ll automatically plug the date for you but if this is a report from a previous time out on the water, tap the calendar button and choose the right day.</p>
+
+        <img class="img-responsive center-block" src="assets/img/submit-date.png" style="height:600px" "padding-top: 50px">
+
+        </div>
+
+
+    <div role="tabpanel" class="tab-pane fade" id="confirmlocal1"> 
+
+        <p>Grabbing your location is a snap.  Tap on the map pin and Water Reporter will plot your location.  You can always move the map to fine tune and when you are done tap the check mark in the top right corner.</p>
+
+        <img class="img-responsive center-block" src="assets/img/submit-location.png" style="height:600px" "padding-top: 50px">
+
+        </div>
+    <div role="tabpanel" class="tab-pane fade" id="pickgroup1">
+
+      
+              <p>If you’ve joined groups, you can flip the toggle at the bottom of the screen to make sure group administrators are notified that you’ve shared the report.  Keep in mind you can always go back and edit a report’s date, comments, location, or group(s).  Tap the send button and it’s off!  Next let’s talk about notifications and comments so you can connect with others in the community.</p>
+            
+
+        <img class="img-responsive center-block" src="assets/img/submit-groups.png" style="height:600px" "padding-top: 50px">
+
+      </div>
+
+  </div>
+
+  <h3 id="postwr">What happens next?</h3>
+
+           <p>We post your report to the community and make it available for everyone to see.  If you’ve shared your report with an organization, we’ll make sure they are notified via email.   Water Reporter will also affiliate the appropriate watershed with your report so that it can be explored by others.</p>
+
+           <div class="callout callout-info" role="alert">
+              <h4>Helpful Tip</h4>
+              <p>If you would like to receive emails when someone comments on your report or takes a remedial action, make sure you notifications are switched to “on” in your profile settings</p>
+            </div>
+
+<h2 id="hashtags">Using Hashtags</h2>
+
+<p>Hashtags are a fantastic way to categorize all of your reports by a specific topic of interest.  It’s also a useful method for easily viewing other water related observations that are trending within the Water Reporter Community.   You can use hashtag at the time of posting or editing a report as well as within report comments.  To get started using hashtags follow the steps below.</p>
+
+<ul class="step-text">
+  <li>
+    <h5>Start with report description or comments</h5>
+    <p>Begin adding hashtags mid sentence or by appending them to the end of your report.  Add a “#” in front of any word or combination of words.</p>
+  </li>
+
+  <li>
+    <h5>Select from the dropdown or keep typing</h5>
+    <p>As you type a list of suggestions will appear.  Select one that matches or keep typing to create a new one.  Appropriate hashtags look something like this: “#sediment #erosion” that said, we cannot work with things that look like the following: “#sediment#erosion” or “#sediment, #erosion.”</p>
+  </li>
+
+  <li>
+    <h5>Keep it simple</h5>
+    <p>With hashtags it’s better to use simple short words and phrases.  There is no need to add special characters or punctuation. Here are some great examples of how hashtags will appear in our community:
+    <strong> <a href="https://www.waterreporter.org/community/tags/sediment" target="_blank">#sediment</a></strong> or 
+      <strong> <a href="https://www.waterreporter.org/community/tags/erosion" target="_blank">#erosion</a></strong>
+  
+  </li>
+
+</ul>
+
+
+  <h2 id="sharesocial">Sharing a Report to Social Media</h2>
+
+  <p>Water Reporter makes it easy for community members to share posts outside the community to Twitter and Facebook. This exponentially increases the visibility of your reports and allows you to connect with others who have yet to register for a Water Reporter account. To get started cross posting, follow the simple steps below.</p>
+
+
+<div class="tabs tabs-text" style="padding-top:50px">
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs text-center" role="tablist">
+    <li role="presentation" class="active">
+      <a href="#sharetosocial" aria-controls="photocom" role="tab" data-toggle="tab">Find a Report and Share Button</a>
+    </li>
+    <li role="presentation">
+      <a href="#selectsocial" aria-controls="date" role="tab" data-toggle="tab">Choose Social Network</a>
+    </li>
+    <li role="presentation">
+      <a href="#addsocialcomments" aria-controls="confirmlocal" role="tab" data-toggle="tab">Add Comments</a>
+    </li>
+    <li role="presentation">
+      <a href="#postsocial" aria-controls="pickgroup" role="tab" data-toggle="tab">Share</a>
+    </li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active fade in" id="sharetosocial"> 
+
+       <p>
+    <h5>1.  Locate the Report Share Button</h5>
+    <p>Make sure you have installed and logged into Facebook and Twitter on your mobile device.  Find a report you are interested in cross posting and tap the “share” button. 
+    </p></p>
+      
+       <img class="img-responsive center-block" src="assets/img/sed-share.png" style="height:600px" "padding-top: 50px">
+     
+        </div>
+
+
+    <div role="tabpanel" class="tab-pane fade" id="selectsocial">
+
+      <p><h5>2.  Select Facebook or Twitter</h5>
+    <p>Depending on the social media platforms you have installed on your device, look for Facebook or Twitter and tap the icon.  For the sake of this demo, we’ll pick Facebook. 
+    </p></p>
+
+        <img class="img-responsive center-block" src="assets/img/share-to-fb.png" style="height:600px" "padding-top: 50px">
+
+        </div>
+
+
+    <div role="tabpanel" class="tab-pane fade" id="addsocialcomments"> 
+
+        <p><h5>3.  Add Post Comments</h5>
+    <p>Since we’ll be sharing this post to our Facebook status, we can add a few comments, note how we have pulled in the report image as the header for your post. 
+    </p></p>
+
+        <img class="img-responsive center-block" src="assets/img/posting-fb.png" style="height:600px" "padding-top: 50px">
+
+   
+
+
+        </div>
+    <div role="tabpanel" class="tab-pane fade" id="postsocial">
+
+      
+              <p><h5>4.  Add Post Comments</h5>
+    <p>Great work, you’ve now added your Water Reporter post to Facebook and will receive all the like, comments, and interactions this community supports! 
+    </p></p>
+
+        <img class="img-responsive center-block" src="assets/img/fb-post-success.png" style="height:600px" "padding-top: 50px">
+      </div>
+
+  </div>
+
+        </section>
+
+
+        <section>
+          <h2 id="groups">Groups</h2>
+          
+          <p>One of Water Reporter’s major roles as a platform is to unite watershed restoration efforts.  Our community’s group features provide an outlet for both organizational leads and everyday Water Reporter users to connect via reports.  Organizations in Water Reporter are active leaders in watershed restoration efforts and currently consist of small watershed organizations, national NGOs, and even government agencies.  Joining an organization in Water Reporter affiliates your profile with their dedicated page, allows you to share reports to support their crowdsourcing initiatives, and work together to actively improve water quality.  Here are some examples of how to get started with groups.</p>
+
+          <img class="img-responsive center-block" src="assets/img/Android-Orgs-Reports.png" style="height:600px" "padding-top: 50px">
+
+          <h3>Why join groups?</h3>
+<ul class="step-text">
+  <li>
+    <h5>Help collect observations for a specific initiative</h5>
+    <p>Often organizations in Water Reporter will ask for help from their volunteers to collect observations related to water quality issues such as algae blooms, trash sites, or erosion.  Your reports provide vital data that our organizations can use to inform where cleanups should occur and where restoration should happen.</p>
+  </li>
+
+  <li>
+    <h5>Stay current with local watershed improvement efforts</h5>
+    <p>Groups are a fast and easy way to access and interact with the most recent reports shared by users of similar interests and regions.</p>
+  </li>
+
+  <li>
+    <h5>Notify an active base of restoration professionals</h5>
+    <p>As a unified network, we can work together to identify threats to water quality and take action to improve our local resources.  Sharing a report with a group such as a watershed organization allows all members to be notified and they can take action on your report.</p>
+  </li>
+
+    <h3 id="joingroup">How to Join a Group</h3>
+
+    <p>
+    We provide many opportunities for you to join groups in Water Reporter.  Currently our community supports joining groups at the time of registration as well as managing groups via your profile settings.  This help section will take you through managing groups via your profile.  To learn how to join groups at registration time, please refer to our signup instructions on <strong> <a href="/index.html#signup">step 3 of our quick start</a></strong>.
+    </p>
+
+    <div class="tabs tabs-text" style="padding-top:50px">
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs text-center" role="tablist">
+    <li role="presentation" class="active">
+      <a href="#tapprofile" aria-controls="photocom" role="tab" data-toggle="tab">Profile and Settings</a>
+    </li>
+    <li role="presentation">
+      <a href="#tapgear" aria-controls="date" role="tab" data-toggle="tab">Manage Groups</a>
+    </li>
+    <li role="presentation">
+      <a href="#tapmanagegroups" aria-controls="confirmlocal" role="tab" data-toggle="tab">Search and Join</a>
+    </li>
+    <li role="presentation">
+      <a href="#searchjoin" aria-controls="pickgroup" role="tab" data-toggle="tab">Success!</a>
+    </li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active fade in" id="tapprofile"> 
+
+       <p>
+    <h5>1.  Navigate to your profile</h5>
+    <p>Locate the profile icon in the bottom right corner of Water Reporter and tap it.  This will bring you to your profile page where you can view your reports, actions (if applicable), and groups.  Tap on the profile settings gear in the top right corner.
+    </p></p>
+      
+       <img class="img-responsive center-block" src="assets/img/profile-to-settings.png" style="height:600px" "padding-top: 50px">
+     
+        </div>
+
+
+    <div role="tabpanel" class="tab-pane fade" id="tapgear">
+
+      <p><h5>2.  Tap manage groups</h5>
+    <p>In the profile settings view, you will see a variety of elements for managing your profile, managing notifications, and managing groups.  Tap on manage groups. 
+    </p></p>
+
+        <img class="img-responsive center-block" src="assets/img/manage-groups.png" style="height:600px" "padding-top: 50px">
+
+        </div>
+
+
+    <div role="tabpanel" class="tab-pane fade" id="tapmanagegroups"> 
+
+        <p><h5>3.  Search and Join</h5>
+    <p>If you see the group you want to join, click the join button.  If you don’t see the group you can search for it.  When you tap “join group” a notification will be sent to the group administrators letting you know you have joined.  You can leave at anytime and if you don’t see a group you in Water Reporter, <strong> <a href="mailto:support@waterreporter.org">send us a note</a></strong>. 
+    </p></p>
+
+        <img class="img-responsive center-block" src="assets/img/group-joined.png" style="height:600px" "padding-top: 50px">
+
+   
+
+
+        </div>
+    <div role="tabpanel" class="tab-pane fade" id="searchjoin">
+
+      
+              <p><h5>4.  Success</h5>
+    <p>Nice!  You are now affiliated with a new group and it will appear in your profile.  You can also share reports with this organization by flipping the group name toggle when sharing a report. 
+ 
+    </p></p>
+
+        <img class="img-responsive center-block" src="assets/img/bird-river-joined.png" style="height:600px" "padding-top: 50px">
+      </div>
+
+  </div>
+
+    <h3 id="joinus">Become a Group</h3>
+
+    <div class="row">
+  <div class="col-md-6">
+    <p>Does your organization have a citizen pollution reporting program? Do you need to easily collect volunteer geo-referenced observations in your watershed?  Water Reporter provides tools for restoration professionals to access reports submitted to the community and track remediation. Collectively, restoration professionals and users are creating a national network of people watching over our waterways.</p>
+
+    <p>As a Water Reporter administrator, you gain access to communication tools that help you reach out to your networks and inform your volunteers of the actions that you and your organization are taking to improve water quality. We are also working to deploy a line of services that will allow you to easily manage, map, and share quantitative water quality monitoring data.</p>
+
+    <p>To view a full list of features and costs associated with Water Reporter for Organizations, check out our <strong> <a href="https://www.waterreporter.org/for-organizations/">Plans and Pricing</a></strong> page.  We have a list of <strong>FAQs</strong> and if you still have questions, please feel free to <strong> <a href="mailto:support@waterreporter.org">contact us directly</a></strong>.</p>
+
+  </div>
+
+  <div class="col-md-6">
+    <div class="jumbotron jumbotron-sm">
+      <div class="container">
+        <h4>Feature Overview</h4>
+        <p> <table class="table">
+  <thead>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Resolve reports submitted by your volunteers</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Manage your organization’s profile</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Get notified anytime a report is submitted in a watershed of interest</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>Get notified anytime a report is submitted to your organization</td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td>Download reports in a.CSV or .GeoJSON format for third party applications</td>
+    </tr>
+  </tbody>
+</table></p>
+
+<p><a class="btn btn-primary btn-lg" href="mailto:support@waterreporter.org" role="button">Get in touch</a></p>
+       
+      </div>
+    </div>
+  </div>
+</div>
+
+<h3 id="notify">Notifications</h3>
+
+<p style="padding-bottom:50px">Water Reporter supports a diverse and reliable set of email notifications that keeps everyone in the loop.  Whether you are an administrator of a volunteer monitoring program in Water Reporter or simply trying to start the discussion by commenting on a report, we provide a flexible means to stay on top of the latest activity while also being able to turn off the chatter.  Below is a helpful comparison by user type of the of notifications you can turn on or off in your profile settings.</p>  
+    
+<h4>Notification List by User Type</h4>
+            <br>
+            <ul class="changelog">
+              <li class="ch-user">Opt-in/Opt-out of email notifications when someone comments on my report</li>
+              <li class="ch-user">Opt-in/Opt-out of email notifications when an administrator marks one of my reports as resolved</li>
+              <li class="ch-admin">Opt-in/Opt-out of email notifications when a user joins a group I administer</li>
+              <li class="ch-admin">Opt-in/Opt-out of email notifications when a user comments on a report in a group I administer</li>
+              <li class="ch-admin">Opt-in/Opt-out of email notifications when a user comments on a report in a watershed I administer</li>
+              <li class="ch-admin">Opt-in/Opt-out of email notifications when a user submits a report to an organization I administer</li>
+              <li class="ch-admin">Opt-in/Opt-out of email notifications when a user submits a report to a watershed I administer</li>
+            </ul>
+
+ <h3 id="configurenotify">Configure Notifications</h3>
+
+      <p>Configuring notifications is as easy as flipping a switch.  Upon registering for an account with Water Reporter, our system will not send you emails until you switch your notifications on in the mobile app.  Out of the box, you can opt-in for emails anytime a user comments on your report or when an administrator marks your report as resolved.  Follow the steps below:</p>
+
+      <div class="tabs tabs-text" style="padding-top:50px">
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs text-center" role="tablist">
+    <li role="presentation" class="active">
+      <a href="#tapprofilenotify" aria-controls="photocom" role="tab" data-toggle="tab">Profile and Settings</a>
+    </li>
+    <li role="presentation">
+      <a href="#tapgearnotify" aria-controls="date" role="tab" data-toggle="tab">Locate Notifications</a>
+    </li>
+    <li role="presentation">
+      <a href="#searchnotify" aria-controls="pickgroup" role="tab" data-toggle="tab">Success!</a>
+    </li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active fade in" id="tapprofilenotify"> 
+
+       <p>
+    <h5>1.  Navigate to your profile</h5>
+    <p>Locate the profile icon in the bottom right corner of Water Reporter and tap it.  This will bring you to your profile page where you can view your reports, actions (if applicable), and groups.  Tap on the profile settings gear in the top right corner.
+    </p></p>
+      
+       <img class="img-responsive center-block" src="assets/img/profile-to-settings.png" style="height:600px" "padding-top: 50px">
+     
+        </div>
+
+
+    <div role="tabpanel" class="tab-pane fade" id="tapgearnotify">
+
+      <p><h5>2.  Locate Notifications</h5>
+    <p>In the profile settings view, you will see a variety of elements for managing your profile, managing notifications, and managing groups.  Locate the toggles at the bottom and configure as desired. 
+    </p></p>
+
+        <img class="img-responsive center-block" src="assets/img/notifications-optin.png" style="height:600px" "padding-top: 50px">
+
+        </div>
+
+
+    <div role="tabpanel" class="tab-pane fade" id="searchnotify"> 
+
+        <p><h5>3.  Success!</h5>
+    <p>If you see the group you want to join, click the join button.  If you don’t see the group you can search for it.  When you tap “join group” a notification will be sent to the group administrators letting you know you have joined.  You can leave at anytime and if you don’t see a group you in Water Reporter, <strong> <a href="mailto:support@waterreporter.org">send us a note</a></strong>. 
+    </p></p>
+
+        <img class="img-responsive center-block" src="assets/img/browser-comment.png"  "padding-top: 50px">
+
+   
+      </div>
+
+  </div>
+
+  <h3 id="mediakit">Media Kit <small class="release-date">Last Updated March 28, 2017</small></h3>
+
+  <div class="jumbotron jumbotron-sm">
+      <div class="container">
+        <h4>Contents</h4>
+        <p> <table class="table">
+  <thead>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Water Reporter brand manual</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Horizontal, stacked, and mark only logo in .png, .ai, and .svg file formats/td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Screenshots for native IPhone application</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>Screenshots for native Android application</td>
+    </tr>
+    
+  </tbody>
+</table></p>
+
+<p><a class="btn btn-primary btn-lg" href="/assets/media-kit.zip" role="button">Download Kit</a></p>
+       
+      </div>
+    </div>
+
+        </section>
+        
+      </article>
+      <!-- END Main content -->
+
+    </main>
+
+        <!-- END Main content -->
+
+
+        <!-- Footer -->
+        <footer class="site-footer">
+          <div class="container-fluid">
+            <a id="scroll-up" href="#"><i class="fa fa-angle-up"></i></a>
+
+            <div class="row">
+              <div class="col-md-6 col-sm-6">
+                <p>
+        © 2017 Water Reporter. All rights reserved. <br>Water Reporter is a project created in cooperation with
+        <a href="http://www.chesapeakecommons.org/" target="_blank">
+          Chesapeake Commons</a> and 
+        <a href="http://www.viableindustries.com/" target="_blank">
+          Viable Industries</a>.
+      </p>
+              </div>
+              <div class="col-md-6 col-sm-6">
+                <ul class="footer-menu">
+                  <li><a href="mailto:support@waterreporter.org">Contact us</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- END Footer -->
+
+      </div>
+    </main>
+
+
+    <!-- Scripts -->
+    <script src="assets/js/theDocs.all.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+  </body>
+</html>
